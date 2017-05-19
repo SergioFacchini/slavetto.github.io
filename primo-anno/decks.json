@@ -1,20 +1,27 @@
 {
   "cardTypes": {
     "1471435193999": {"css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n"},
-    "1471435194000": {"css": ".card {\n font-family: Arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\nimg {\n  vertical-align: middle;\n  padding-bottom: 7px;\n  padding-right: 6px;\n  padding-left: 6px\n}"}
+    "1471435194000": {"css": ".card {\n font-family: Arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\nimg {\n  vertical-align: middle;\n  padding-bottom: 7px;\n  padding-right: 6px;\n  padding-left: 6px\n}\n\nul > li, ol > li{\n  text-align: left;\n}"}
   },
+  "sidebarNotes": "Questo progetto è stato realizzato da Slava e Simone Degiacomi per gli studenti del primo anno del corso di studi di informatica.",
   "decks": [
     {
-      "name": "Università - Calcolatori",
+      "name": "Calcolatori",
       "hasCategories": true,
       "categories": [
         {
           "cards": [
             {
-              "rear": "Quali sono le dimensioni dell'esponente e mantissa nello&nbsp;standard IEEE-754 (a precisione doppia)?\n<hr id=answer>\n<div>1: Bit di segno<\/div><div>11: Esponente<\/div><div>52: esponente<\/div>",
+              "rear": "Che cos'è lo&nbsp;standard IEEE-754?\n<hr id=answer>\n<div>È lo standard internazionale adottato per rappresentare i numeri reali<\/div>",
               "typeId": 1471435194000,
-              "id": 1492956622034,
-              "front": "Quali sono le dimensioni dell'esponente e mantissa nello&nbsp;standard IEEE-754 (a precisione doppia)?"
+              "id": 1492955924047,
+              "front": "Che cos'è lo&nbsp;standard IEEE-754?"
+            },
+            {
+              "rear": "Quali sono le dimensioni dell'esponente e mantissa nello&nbsp;standard IEEE-754 (a precisione singola)?\n<hr id=answer>\n<div>1: Bit di segno<\/div><div>8: Esponente<\/div><div>23: esponente<\/div>",
+              "typeId": 1471435194000,
+              "id": 1492956009394,
+              "front": "Quali sono le dimensioni dell'esponente e mantissa nello&nbsp;standard IEEE-754 (a precisione singola)?"
             },
             {
               "rear": "Secondo lo&nbsp;standard IEEE-754, il bit del segno messo a 0 significa?\n<hr id=answer>\nSegno positivo",
@@ -23,16 +30,10 @@
               "front": "Secondo lo&nbsp;standard IEEE-754, il bit del segno messo a 0 significa?"
             },
             {
-              "rear": "Che cos'è lo&nbsp;standard IEEE-754?\n<hr id=answer>\n<div>È lo standard internazionale adottato per rappresentare i numeri reali<\/div>",
-              "typeId": 1471435194000,
-              "id": 1492955924047,
-              "front": "Che cos'è lo&nbsp;standard IEEE-754?"
-            },
-            {
-              "rear": "Un numero composti da tutti uni secondo lo standard IEEE-754 è:\n<hr id=answer>\nNaN",
+              "rear": "Un numero composto da tutti uni secondo lo standard IEEE-754 è:\n<hr id=answer>\nNaN",
               "typeId": 1471435194000,
               "id": 1492956319071,
-              "front": "Un numero composti da tutti uni secondo lo standard IEEE-754 è:"
+              "front": "Un numero composto da tutti uni secondo lo standard IEEE-754 è:"
             },
             {
               "rear": "Nello standard IEEE-754, per quale motivo l'esponente è rappresentato in eccesso a 127?\n<hr id=answer>\n<img src=\"anki-images/paste-5257039970305.jpg\" />",
@@ -41,10 +42,10 @@
               "front": "Nello standard IEEE-754, per quale motivo l'esponente è rappresentato in eccesso a 127?"
             },
             {
-              "rear": "Quali sono le dimensioni dell'esponente e mantissa nello&nbsp;standard IEEE-754 (a precisione singola)?\n<hr id=answer>\n<div>1: Bit di segno<\/div><div>8: Esponente<\/div><div>23: esponente<\/div>",
+              "rear": "Quali sono le dimensioni dell'esponente e mantissa nello&nbsp;standard IEEE-754 (a precisione doppia)?\n<hr id=answer>\n<div>1: Bit di segno<\/div><div>11: Mantissa<\/div><div>52: Esponente<\/div>",
               "typeId": 1471435194000,
-              "id": 1492956009394,
-              "front": "Quali sono le dimensioni dell'esponente e mantissa nello&nbsp;standard IEEE-754 (a precisione singola)?"
+              "id": 1492956622034,
+              "front": "Quali sono le dimensioni dell'esponente e mantissa nello&nbsp;standard IEEE-754 (a precisione doppia)?"
             }
           ],
           "categoryName": "AritmeticaCalcolatori"
@@ -52,10 +53,16 @@
         {
           "cards": [
             {
-              "rear": "Che cos'è ISA?\n<hr id=answer>\nInstruction Set Architecture, ovvero l'insieme delle istruzioni del processore offerte nel linguaggio macchina.",
+              "rear": "Che cos'è un assemblatore?\n<hr id=answer>\nTraduce il linaguaggio assembly in sequenze di bit",
               "typeId": 1471435194000,
-              "id": 1492958827942,
-              "front": "Che cos'è ISA?"
+              "id": 1487774571912,
+              "front": "Che cos'è un assemblatore?"
+            },
+            {
+              "rear": "Che cos'era ENIAC?\n<hr id=answer>\nIl primo calcolatore, messo in funzione per la prima volta il 1946. Calcolava le traiettorie dei proiettili di artiglieria.",
+              "typeId": 1471435194000,
+              "id": 1492958328899,
+              "front": "Che cos'era ENIAC?"
             },
             {
               "rear": "Che cos'è il data path?\n<hr id=answer>\nÈ un insieme di unità di calcolo, come ad esempio le unità di elaborazione (ALU), i registri e i moltiplicatori necessari per l'esecuzione delle istruzioni nella CPU.",
@@ -64,16 +71,16 @@
               "front": "Che cos'è il data path?"
             },
             {
-              "rear": "Che cosa si intende per MIPS (unità di misura)?\n<hr id=answer>\nMega Instructions Per Second<div><img class=latex src=\"anki-images/latex-4488e4ba966c5e76ba9117a2a8eb90ef657ec768.png\"><\/div><div>Nota: non tiene conto del CPI!<\/div>",
+              "rear": "Che cos'è ISA?\n<hr id=answer>\nInstruction Set Architecture, ovvero l'insieme delle istruzioni del processore offerte nel linguaggio macchina.",
               "typeId": 1471435194000,
-              "id": 1492962955232,
-              "front": "Che cosa si intende per MIPS (unità di misura)?"
+              "id": 1492958827942,
+              "front": "Che cos'è ISA?"
             },
             {
-              "rear": "Come si calcola il Tempo CPU nell'esecuzione di un programma?\n<hr id=answer>\nTempo CPU =&nbsp;<img class=latex src=\"anki-images/latex-96c15f8a1af25e7a2eec64f7c6fedafe12363352.png\">",
+              "rear": "Che cos'è l'ABI?\n<hr id=answer>\nApplication Binary Interface, è l'interfaccia (binaria) che il sistema operativo offre per indicare come utilizzare le proprie librerie o funzionalità",
               "typeId": 1471435194000,
-              "id": 1492961578147,
-              "front": "Come si calcola il Tempo CPU nell'esecuzione di un programma?"
+              "id": 1492959107298,
+              "front": "Che cos'è l'ABI?"
             },
             {
               "rear": "Relativamente alle prestazioni di un elaboratore, che cos'è il throughput?\n<hr id=answer>\nQuanti task l'elaboratore è in grado di completare in un'unità di tempo.",
@@ -82,10 +89,10 @@
               "front": "Relativamente alle prestazioni di un elaboratore, che cos'è il throughput?"
             },
             {
-              "rear": "Che cos'era ENIAC?\n<hr id=answer>\nIl primo calcolatore, messo in funzione per la prima volta il 1946. Calcolava le traiettorie dei proiettili di artiglieria.",
+              "rear": "Che cos'è il periodo del clock?\n<hr id=answer>\n<img class=latex src=\"anki-images/latex-6a3ac365210c170e4573d6f669410f5812e87aff.png\"><div>con&nbsp;<img class=latex src=\"anki-images/latex-613645e3f915fc98f2b239b538f36df1ebe75b4d.png\"> frequenza di clock (in&nbsp;<img class=latex src=\"anki-images/latex-0cc8b5131ccb25b20258394ebcf13773bb8b2d19.png\">).<\/div>",
               "typeId": 1471435194000,
-              "id": 1492958328899,
-              "front": "Che cos'era ENIAC?"
+              "id": 1492959908022,
+              "front": "Che cos'è il periodo del clock?"
             },
             {
               "rear": "Che cos'è il tempo CPU di un programma?\n<hr id=answer>\nQuanti secondi sono necessari per l'esecuzione di un programma.",
@@ -100,28 +107,34 @@
               "front": "Che cos'è il CPI?"
             },
             {
-              "rear": "Che cos'è il periodo del clock?\n<hr id=answer>\n<img class=latex src=\"anki-images/latex-6a3ac365210c170e4573d6f669410f5812e87aff.png\"><div>con&nbsp;<img class=latex src=\"anki-images/latex-613645e3f915fc98f2b239b538f36df1ebe75b4d.png\"> frequenza di clock (in&nbsp;<img class=latex src=\"anki-images/latex-0cc8b5131ccb25b20258394ebcf13773bb8b2d19.png\">).<\/div>",
+              "rear": "Come si calcola il Tempo CPU nell'esecuzione di un programma?\n<hr id=answer>\nTempo CPU =&nbsp;<img class=latex src=\"anki-images/latex-96c15f8a1af25e7a2eec64f7c6fedafe12363352.png\">",
               "typeId": 1471435194000,
-              "id": 1492959908022,
-              "front": "Che cos'è il periodo del clock?"
+              "id": 1492961578147,
+              "front": "Come si calcola il Tempo CPU nell'esecuzione di un programma?"
             },
             {
-              "rear": "Che cos'è un assemblatore?\n<hr id=answer>\nTraduce il linaguaggio assembly in sequenze di bit",
+              "rear": "Che cosa si intende per MIPS (unità di misura)?\n<hr id=answer>\nMega Instructions Per Second<div><img class=latex src=\"anki-images/latex-4488e4ba966c5e76ba9117a2a8eb90ef657ec768.png\"><\/div><div>Nota: non tiene conto del CPI!<\/div>",
               "typeId": 1471435194000,
-              "id": 1487774571912,
-              "front": "Che cos'è un assemblatore?"
-            },
-            {
-              "rear": "Che cos'è l'ABI?\n<hr id=answer>\nApplication Binary Interface, è l'interfaccia (binaria) che il sistema operativo offre per indicare come utilizzare le proprie librerie o funzionalità",
-              "typeId": 1471435194000,
-              "id": 1492959107298,
-              "front": "Che cos'è l'ABI?"
+              "id": 1492962955232,
+              "front": "Che cosa si intende per MIPS (unità di misura)?"
             }
           ],
           "categoryName": "CalcLect1"
         },
         {
           "cards": [
+            {
+              "rear": "Che differenza c'è tra porte logiche combinatorie e quelle sequenziali?\n<hr id=answer>\nCombinatorie: non hanno memoria, l'uscita dipende dai valori in ingresso<div>Sequenziali: L'uscita dipende dalla storia degli ingressi, hanno memoria.<\/div>",
+              "typeId": 1471435194000,
+              "id": 1492963750907,
+              "front": "Che differenza c'è tra porte logiche combinatorie e quelle sequenziali?"
+            },
+            {
+              "rear": "Che porta logica è rappresentata?<div><img src=\"anki-images/paste-61542586384385.jpg\" /><\/div>\n<hr id=answer>\nAND",
+              "typeId": 1471435194000,
+              "id": 1492963830125,
+              "front": "Che porta logica è rappresentata?<div><img src=\"anki-images/paste-61542586384385.jpg\" /><\/div>"
+            },
             {
               "rear": "Che porta logica è rappresentata?<div><img src=\"anki-images/paste-61641370632193.jpg\" /><\/div>\n<hr id=answer>\nOR",
               "typeId": 1471435194000,
@@ -135,12 +148,6 @@
               "front": "Che cos'è il decoder (circuito logico)?"
             },
             {
-              "rear": "Che differenza c'è tra porte logiche combinatorie e quelle sequenziali?\n<hr id=answer>\nCombinatorie: non hanno memoria, l'uscita dipende dai valori in ingresso<div>Sequenziali: L'uscita dipende dalla storia degli ingressi, hanno memoria.<\/div>",
-              "typeId": 1471435194000,
-              "id": 1492963750907,
-              "front": "Che differenza c'è tra porte logiche combinatorie e quelle sequenziali?"
-            },
-            {
               "rear": "Che cos'è il multiplexor?\n<hr id=answer>\nUn deviatore che, sulla base di un input di controllo, determina quale degli input passa<div><img src=\"anki-images/paste-62019327754241.jpg\" /><\/div>",
               "typeId": 1471435194000,
               "id": 1492964242044,
@@ -151,24 +158,12 @@
               "typeId": 1471435194000,
               "id": 1492964425275,
               "front": "Da cosa dipende il costo di una rete logica?"
-            },
-            {
-              "rear": "Che porta logica è rappresentata?<div><img src=\"anki-images/paste-61542586384385.jpg\" /><\/div>\n<hr id=answer>\nAND",
-              "typeId": 1471435194000,
-              "id": 1492963830125,
-              "front": "Che porta logica è rappresentata?<div><img src=\"anki-images/paste-61542586384385.jpg\" /><\/div>"
             }
           ],
           "categoryName": "CalcLect3"
         },
         {
           "cards": [
-            {
-              "rear": "Che cosa si intende per little endian e big endian?\n<hr id=answer>\nIl modo in cui il byte più/meno significativi sono disposti.<div><img src=\"anki-images/paste-81346680586241.jpg\" /><\/div>",
-              "typeId": 1471435194000,
-              "id": 1493043816885,
-              "front": "Che cosa si intende per little endian e big endian?"
-            },
             {
               "rear": "Che cos'è la ALU?\n<hr id=answer>\nAlgebraic logic unit: il componente che è in grado di effettuare varie operazioni logiche ed aritmetiche",
               "typeId": 1471435194000,
@@ -180,6 +175,12 @@
               "typeId": 1471435194000,
               "id": 1493024208699,
               "front": "Che ingressi ed uscite ha un sommatore ad un bit?"
+            },
+            {
+              "rear": "Che cosa si intende per little endian e big endian?\n<hr id=answer>\nIl modo in cui il byte più/meno significativi sono disposti.<div><img src=\"anki-images/paste-81346680586241.jpg\" /><\/div>",
+              "typeId": 1471435194000,
+              "id": 1493043816885,
+              "front": "Che cosa si intende per little endian e big endian?"
             }
           ],
           "categoryName": "CalcLect4-ALU"
@@ -187,34 +188,10 @@
         {
           "cards": [
             {
-              "rear": "Che cos'è il register file?\n<hr id=answer>\nÈ un array di registri che permette, mediante appositi ingressi ed uscite, di leggere o scrivere su un registro.<div><img src=\"anki-images/paste-18940805775361.jpg\" /><\/div>",
+              "rear": "Che cos'è un latch SR?\n<hr id=answer>\n<div>Un circuito elettronico capace di memorizzare informazioni<\/div><img src=\"anki-images/paste-9921374453761.jpg\" />",
               "typeId": 1471435194000,
-              "id": 1493030273961,
-              "front": "Che cos'è il register file?"
-            },
-            {
-              "rear": "In che modo il funzionamento del latch D si differenza da quello di un gated latch SR?\n<hr id=answer>\nNel gated latch SR sono presenti 3 ingressi (S, R, Clock) che permettono di settare e resetare il dato.<div>Nei gated latch sono presenti solo 2 ingressi (D, clock) e questo memorizza il dato D solo quando il clock è alto.<\/div>",
-              "typeId": 1471435194000,
-              "id": 1493028309802,
-              "front": "In che modo il funzionamento del latch D si differenza da quello di un gated latch SR?"
-            },
-            {
-              "rear": "Che cos'è un latch D?\n<hr id=answer>\nÈ un latch, circuito elettronico capace di memorizzare informazioni, che presenta due input: il dato da memorizzare ed il clock.<div><img src=\"anki-images/paste-15045270437889.jpg\" /><\/div>",
-              "typeId": 1471435194000,
-              "id": 1493028123953,
-              "front": "Che cos'è un latch D?"
-            },
-            {
-              "rear": "In assembly che cosa si intende per operazioni su dati immediati?\n<hr id=answer>\nOperazioni sulle costanti",
-              "typeId": 1471435194000,
-              "id": 1493032084941,
-              "front": "In assembly che cosa si intende per operazioni su dati immediati?"
-            },
-            {
-              "rear": "Che cosa si intende per circuiti elettronici edge triggered?\n<hr id=answer>\nSono circuiti sequenziali che commutano il loro stato quando al variare del segnale di abilitazione (che solitamente il clock). Questo si differenza dai Latch SR che commutano quando cambia il valore di S o R.<div><br /><\/div><div><img src=\"anki-images/paste-17055315132417.jpg\" /><\/div>",
-              "typeId": 1471435194000,
-              "id": 1493030121376,
-              "front": "Che cosa si intende per circuiti elettronici edge triggered?"
+              "id": 1493027112352,
+              "front": "Che cos'è un latch SR?"
             },
             {
               "rear": "Qual è la tabella di verità di un latch SR realizzato con delle NOR?\n<hr id=answer>\n<img src=\"anki-images/paste-12459700125697.jpg\" /><div>in cui la combinazione S=0, R=0 non è ammessa.<\/div>",
@@ -223,40 +200,10 @@
               "front": "Qual è la tabella di verità di un latch SR realizzato con delle NOR?"
             },
             {
-              "rear": "Che cos'è il program counter (o instruction pointer)?\n<hr id=answer>\nÈ un registro della CPU nel quale viene memorizzata la prossima istruzione assembly da eseguire.",
+              "rear": "Che cos'è un gated latch?\n<hr id=answer>\n<img src=\"anki-images/paste-13327283519489.jpg\" /><div>Un circuito elettronico, uguale al lastch SR, nel quale però è possibile cambiare gli ingressi solo quando il segnale di clock è alto.<\/div>",
               "typeId": 1471435194000,
-              "id": 1493031758740,
-              "front": "Che cos'è il program counter (o instruction pointer)?"
-            },
-            {
-              "rear": "Che tipo di architettura utilizza MIPS? RISC o CISC?\n<hr id=answer>\nRISC",
-              "typeId": 1471435194000,
-              "id": 1493038683990,
-              "front": "Che tipo di architettura utilizza MIPS? RISC o CISC?"
-            },
-            {
-              "rear": "Che cos'è un latch SR?\n<hr id=answer>\n<div>Un circuito elettronico capace di memorizzare informazioni<\/div><img src=\"anki-images/paste-9921374453761.jpg\" />",
-              "typeId": 1471435194000,
-              "id": 1493027112352,
-              "front": "Che cos'è un latch SR?"
-            },
-            {
-              "rear": "Che cos'è e com'è implementato un registro?\n<hr id=answer>\nÈ una collezione di latch che memorizzano un insieme di input alla salita del clock.<div><br /><div><img src=\"anki-images/paste-16265041149953.jpg\" /><\/div><\/div>",
-              "typeId": 1471435194000,
-              "id": 1493029213133,
-              "front": "Che cos'è e com'è implementato un registro?"
-            },
-            {
-              "rear": "Che tipo di architettura utilizza ARM? RISC o CISC?\n<hr id=answer>\nRISC",
-              "typeId": 1471435194000,
-              "id": 1493038664277,
-              "front": "Che tipo di architettura utilizza ARM? RISC o CISC?"
-            },
-            {
-              "rear": "Che differenza esiste tra architetture RISC e CISC?\n<hr id=answer>\nRISC: Reduced Instruction Set Computer. CPI minore ma istruzioni meno potenti.<div><br /><\/div><div>CISC: Complex Instruction Set Computer: Istruzioni molto potenti che semplificano la scritura di programmi Assembly, ma al costo di un maggiore CPI e difficoltà implementative della CPU.<\/div>",
-              "typeId": 1471435194000,
-              "id": 1493032658118,
-              "front": "Che differenza esiste tra architetture RISC e CISC?"
+              "id": 1493027603724,
+              "front": "Che cos'è un gated latch?"
             },
             {
               "rear": "Per quale motivo è preferibile utilizzare dei Gated latch SR invece che Latch SR?\n<hr id=answer>\nDurante la commutazione dei segnali il circuito potrebbe diventare instabile. Ciò potrebbe far cambiare acidentalmente gli ingressi del latch. Per ovviare a ciò, si utilizzano dei&nbsp;Gated latch SR per far si che gli input possano cambiare solo al segnale del clock, il quale viene alzato solo quando tutte le commutazioni sono completate.",
@@ -265,10 +212,40 @@
               "front": "Per quale motivo è preferibile utilizzare dei Gated latch SR invece che Latch SR?"
             },
             {
-              "rear": "Che tipo di architettura utilizza Intel? RISC o CISC?\n<hr id=answer>\nCISC",
+              "rear": "Che cos'è un latch D?\n<hr id=answer>\nÈ un latch, circuito elettronico capace di memorizzare informazioni, che presenta due input: il dato da memorizzare ed il clock.<div><img src=\"anki-images/paste-15045270437889.jpg\" /><\/div>",
               "typeId": 1471435194000,
-              "id": 1493038675085,
-              "front": "Che tipo di architettura utilizza Intel? RISC o CISC?"
+              "id": 1493028123953,
+              "front": "Che cos'è un latch D?"
+            },
+            {
+              "rear": "In che modo il funzionamento del latch D si differenza da quello di un gated latch SR?\n<hr id=answer>\nNel gated latch SR sono presenti 3 ingressi (S, R, Clock) che permettono di settare e resetare il dato.<div>Nei gated latch sono presenti solo 2 ingressi (D, clock) e questo memorizza il dato D solo quando il clock è alto.<\/div>",
+              "typeId": 1471435194000,
+              "id": 1493028309802,
+              "front": "In che modo il funzionamento del latch D si differenza da quello di un gated latch SR?"
+            },
+            {
+              "rear": "Che cos'è e com'è implementato un registro?\n<hr id=answer>\nÈ una collezione di latch che memorizzano un insieme di input alla salita del clock.<div><br /><div><img src=\"anki-images/paste-16265041149953.jpg\" /><\/div><\/div>",
+              "typeId": 1471435194000,
+              "id": 1493029213133,
+              "front": "Che cos'è e com'è implementato un registro?"
+            },
+            {
+              "rear": "Che cosa si intende per circuiti elettronici edge triggered?\n<hr id=answer>\nSono circuiti sequenziali che commutano il loro stato quando al variare del segnale di abilitazione (che solitamente il clock). Questo si differenza dai Latch SR che commutano quando cambia il valore di S o R.<div><br /><\/div><div><img src=\"anki-images/paste-17055315132417.jpg\" /><\/div>",
+              "typeId": 1471435194000,
+              "id": 1493030121376,
+              "front": "Che cosa si intende per circuiti elettronici edge triggered?"
+            },
+            {
+              "rear": "Che cos'è il register file?\n<hr id=answer>\nÈ un array di registri che permette, mediante appositi ingressi ed uscite, di leggere o scrivere su un registro.<div><img src=\"anki-images/paste-18940805775361.jpg\" /><\/div>",
+              "typeId": 1471435194000,
+              "id": 1493030273961,
+              "front": "Che cos'è il register file?"
+            },
+            {
+              "rear": "Che cos'è il program counter (o instruction pointer)?\n<hr id=answer>\nÈ un registro della CPU nel quale viene memorizzata la prossima istruzione assembly da eseguire.",
+              "typeId": 1471435194000,
+              "id": 1493031758740,
+              "front": "Che cos'è il program counter (o instruction pointer)?"
             },
             {
               "rear": "Che cos'è e cosa fanno le fasi del ciclo fetch-decoded-execute?\n<hr id=answer>\nÈ il ciclo di tre operazioni che il processore esegue iterativamente:<div>Fetch: preleva la prossima istruzione dalla memoria<\/div><div>Decode: decodifica l'istruzione (cerca di capire cosa fare)<\/div><div>Execute: esegue l'istruzione<\/div>",
@@ -277,10 +254,34 @@
               "front": "Che cos'è e cosa fanno le fasi del ciclo fetch-decoded-execute?"
             },
             {
-              "rear": "Che cos'è un gated latch?\n<hr id=answer>\n<img src=\"anki-images/paste-13327283519489.jpg\" /><div>Un circuito elettronico, uguale al lastch SR, nel quale però è possibile cambiare gli ingressi solo quando il segnale di clock è alto.<\/div>",
+              "rear": "In assembly che cosa si intende per operazioni su dati immediati?\n<hr id=answer>\nOperazioni sulle costanti",
               "typeId": 1471435194000,
-              "id": 1493027603724,
-              "front": "Che cos'è un gated latch?"
+              "id": 1493032084941,
+              "front": "In assembly che cosa si intende per operazioni su dati immediati?"
+            },
+            {
+              "rear": "Che differenza esiste tra architetture RISC e CISC?\n<hr id=answer>\nRISC: Reduced Instruction Set Computer. CPI minore ma istruzioni meno potenti.<div><br /><\/div><div>CISC: Complex Instruction Set Computer: Istruzioni molto potenti che semplificano la scritura di programmi Assembly, ma al costo di un maggiore CPI e difficoltà implementative della CPU.<\/div>",
+              "typeId": 1471435194000,
+              "id": 1493032658118,
+              "front": "Che differenza esiste tra architetture RISC e CISC?"
+            },
+            {
+              "rear": "Che tipo di architettura utilizza ARM? RISC o CISC?\n<hr id=answer>\nRISC",
+              "typeId": 1471435194000,
+              "id": 1493038664277,
+              "front": "Che tipo di architettura utilizza ARM? RISC o CISC?"
+            },
+            {
+              "rear": "Che tipo di architettura utilizza Intel? RISC o CISC?\n<hr id=answer>\nCISC",
+              "typeId": 1471435194000,
+              "id": 1493038675085,
+              "front": "Che tipo di architettura utilizza Intel? RISC o CISC?"
+            },
+            {
+              "rear": "Che tipo di architettura utilizza MIPS? RISC o CISC?\n<hr id=answer>\nRISC",
+              "typeId": 1471435194000,
+              "id": 1493038683990,
+              "front": "Che tipo di architettura utilizza MIPS? RISC o CISC?"
             }
           ],
           "categoryName": "CalcLect5"
@@ -288,16 +289,28 @@
         {
           "cards": [
             {
-              "rear": "Quale comando permette di generare un file oggetto a partire da un file .s?\n<hr id=answer>\ngcc -c &lt;file.s&gt;",
+              "rear": "Qual è il compito di un linker?\n<hr id=answer>\nMettere assieme codice in linguaggio machina e librerire per poter generare un eseguibile",
               "typeId": 1471435194000,
-              "id": 1493155733761,
-              "front": "Quale comando permette di generare un file oggetto a partire da un file .s?"
+              "id": 1493154720704,
+              "front": "Qual è il compito di un linker?"
             },
             {
               "rear": "Qual è la sequenza di operazioni che avvengono nel linguaggio C per poter generare un eseguibile?\n<hr id=answer>\n<ol>\n<li>Preprocessore: gestisce le direttive #<\/li>\n<li>Compilatore: da C a assembly<\/li>\n<li>Assembler: da assembly a linguaggio macchina<\/li>\n<li>Linker: mette codice in linguaggio macchina e librerie<\/li>\n<\/ol>",
               "typeId": 1471435194000,
               "id": 1493154940661,
               "front": "Qual è la sequenza di operazioni che avvengono nel linguaggio C per poter generare un eseguibile?"
+            },
+            {
+              "rear": "Quale comando permette di generare il codice macchina a partire da un file .cc?\n<hr id=answer>\ngcc -S &lt;file&gt;",
+              "typeId": 1471435194000,
+              "id": 1493155631723,
+              "front": "Quale comando permette di generare il codice macchina a partire da un file .cc?"
+            },
+            {
+              "rear": "Quale comando permette di generare un file oggetto a partire da un file .s?\n<hr id=answer>\ngcc -c &lt;file.s&gt;",
+              "typeId": 1471435194000,
+              "id": 1493155733761,
+              "front": "Quale comando permette di generare un file oggetto a partire da un file .s?"
             },
             {
               "rear": "Che tipo di infromazione contiene un file oggetto?\n<hr id=answer>\n<ul>\n<li>Dati<\/li>\n<li>Codice<\/li>\n<li>Variabili globali<\/li><li>Elenco simboli non definiti<\/li>\n<li>Tabella di rilocazione<\/li>\n<li>Informazioni per il debug<\/li>\n<\/ul>",
@@ -312,28 +325,16 @@
               "front": "Quali sono i 3 passi che svolge il linker?"
             },
             {
-              "rear": "Quale comando permette di generare il codice macchina a partire da un file .cc?\n<hr id=answer>\ngcc -S &lt;file&gt;",
+              "rear": "Che differenza c'è tra le librerie statiche e quelle dinamiche?\n<hr id=answer>\nLe librerie statiche vengono incluse nell'eseguibile durante il linking, quelle dinamiche caricate al momento di esecuzione.",
               "typeId": 1471435194000,
-              "id": 1493155631723,
-              "front": "Quale comando permette di generare il codice macchina a partire da un file .cc?"
+              "id": 1493156394987,
+              "front": "Che differenza c'è tra le librerie statiche e quelle dinamiche?"
             },
             {
               "rear": "Che cos'è la Lazy Linking?\n<hr id=answer>\n<div>Un metodo di caricamento delle librerie dinamiche. Collega le librerie solo quando vengono effettivamente utilizzate.<\/div>",
               "typeId": 1471435194000,
               "id": 1493156753970,
               "front": "Che cos'è la Lazy Linking?"
-            },
-            {
-              "rear": "Qual è il compito di un linker?\n<hr id=answer>\nMettere assieme codice in linguaggio machina e librerire per poter generare un eseguibile",
-              "typeId": 1471435194000,
-              "id": 1493154720704,
-              "front": "Qual è il compito di un linker?"
-            },
-            {
-              "rear": "Che differenza c'è tra le librerie statiche e quelle dinamiche?\n<hr id=answer>\nLe librerie statiche vengono incluse nell'eseguibile durante il linking, quelle dinamiche caricate al momento di esecuzione.",
-              "typeId": 1471435194000,
-              "id": 1493156394987,
-              "front": "Che differenza c'è tra le librerie statiche e quelle dinamiche?"
             }
           ],
           "categoryName": "CalcLect11-toolChain"
@@ -341,22 +342,10 @@
         {
           "cards": [
             {
-              "rear": "Che cos'è l'unità di controllo della ALU?\n<hr id=answer>\nÈ un componente logico combinatorio che genera i segnali di controllo per la ALU, dicendole che tipo di istruzioni questa deve eseguire.",
+              "rear": "Quali sono gli ingressi e le uscite di un Flip Flop?\n<hr id=answer>\n<div>In: Il dato da memorizzare<\/div><div>Out: Il dato attualmente memorizzato (continua ad essee mantenuto in output fino a quando non ne viene memorizzato uno nuovo).<\/div><div>Clock: Il clock<\/div><div><br /><\/div><img src=\"anki-images/paste-231730665488385.jpg\" />",
               "typeId": 1471435194000,
-              "id": 1493202673983,
-              "front": "Che cos'è l'unità di controllo della ALU?"
-            },
-            {
-              "rear": "Che cos'è l'unità di controllo in un processore?\n<hr id=answer>\n<div>È quel componente combinatorio che indica agli altri componenti il modo in cui devono operare&nbsp;in base all'istruzione corrente:<\/div><div><br /><\/div><img src=\"anki-images/paste-239856743612417.jpg\" />",
-              "typeId": 1471435194000,
-              "id": 1493203030257,
-              "front": "Che cos'è l'unità di controllo in un processore?"
-            },
-            {
-              "rear": "<div>Data un'isturzione MIPS di tipo R, fare un esempio di quando e come viene utilizzato il campo \"funct\":<\/div><img src=\"anki-images/paste-81522774245377.jpg\" />\n<hr id=answer>\nIl campo funct viene utilizzato insieme al OP per specificare meglio il tipo di operazione da eseguire.<div>Per esempio, le operazioni di somma e differenza hanno lo stesso OP ma funct diverso.<\/div>",
-              "typeId": 1471435194000,
-              "id": 1493202263565,
-              "front": "<div>Data un'isturzione MIPS di tipo R, fare un esempio di quando e come viene utilizzato il campo \"funct\":<\/div><img src=\"anki-images/paste-81522774245377.jpg\" />"
+              "id": 1493200858938,
+              "front": "Quali sono gli ingressi e le uscite di un Flip Flop?"
             },
             {
               "rear": "Perchè viene utilizzato il clock per temporizzare i circuiti logici?\n<hr id=answer>\nPer date tempo a tutti i componenti di stabilizzarsi prima di poter fare computazioni successive.",
@@ -371,10 +360,22 @@
               "front": "Perché nelle architetture MIPS occorre fare un'estensione del segno nel caso di somme con immediati?"
             },
             {
-              "rear": "Quali sono gli ingressi e le uscite di un Flip Flop?\n<hr id=answer>\n<div>In: Il dato da memorizzare<\/div><div>Out: Il dato attualmente memorizzato (continua ad essee mantenuto in output fino a quando non ne viene memorizzato uno nuovo).<\/div><div>Clock: Il clock<\/div><div><br /><\/div><img src=\"anki-images/paste-231730665488385.jpg\" />",
+              "rear": "<div>Data un'isturzione MIPS di tipo R, fare un esempio di quando e come viene utilizzato il campo \"funct\":<\/div><img src=\"anki-images/paste-81522774245377.jpg\" />\n<hr id=answer>\nIl campo funct viene utilizzato insieme al OP per specificare meglio il tipo di operazione da eseguire.<div>Per esempio, le operazioni di somma e differenza hanno lo stesso OP ma funct diverso.<\/div>",
               "typeId": 1471435194000,
-              "id": 1493200858938,
-              "front": "Quali sono gli ingressi e le uscite di un Flip Flop?"
+              "id": 1493202263565,
+              "front": "<div>Data un'isturzione MIPS di tipo R, fare un esempio di quando e come viene utilizzato il campo \"funct\":<\/div><img src=\"anki-images/paste-81522774245377.jpg\" />"
+            },
+            {
+              "rear": "Che cos'è l'unità di controllo della ALU?\n<hr id=answer>\nÈ un componente logico combinatorio che genera i segnali di controllo per la ALU, dicendole che tipo di istruzioni questa deve eseguire.",
+              "typeId": 1471435194000,
+              "id": 1493202673983,
+              "front": "Che cos'è l'unità di controllo della ALU?"
+            },
+            {
+              "rear": "Che cos'è l'unità di controllo in un processore?\n<hr id=answer>\n<div>È quel componente combinatorio che indica agli altri componenti il modo in cui devono operare&nbsp;in base all'istruzione corrente:<\/div><div><br /><\/div><img src=\"anki-images/paste-239856743612417.jpg\" />",
+              "typeId": 1471435194000,
+              "id": 1493203030257,
+              "front": "Che cos'è l'unità di controllo in un processore?"
             }
           ],
           "categoryName": "CalcLect12-CPU"
@@ -382,58 +383,22 @@
         {
           "cards": [
             {
-              "rear": "Come si calcola la dimensione del tag della cache?\n<hr id=answer>\n<img class=latex src=\"anki-images/latex-2aa0bed79942562df47e9a3bbab7bae42fb6c443.png\"><div>Dove<\/div><div><img class=latex src=\"anki-images/latex-96ab646de7704969b91c76a214126b45f2b07b25.png\"> è la dimensione dell'indirizzo<\/div><div><img class=latex src=\"anki-images/latex-7e6d5db2bad8613c9d5271d181c8a1d435703543.png\"> numero di blocchi nella cache<\/div><div><img class=latex src=\"anki-images/latex-f086ad2a2639cfbf37816de8a1dd62c05ef76bef.png\"> dimensione di un blocco nella cache<\/div>",
-              "typeId": 1471435194000,
-              "id": 1494077552240,
-              "front": "Come si calcola la dimensione del tag della cache?"
-            },
-            {
-              "rear": "Relativamente alla memoria, che cos'è il tempo di ciclo?\n<hr id=answer>\nTempo che intercore tra l'inizio di due operazioni su due locazioni diverse.",
-              "typeId": 1471435194000,
-              "id": 1493888023869,
-              "front": "Relativamente alla memoria, che cos'è il tempo di ciclo?"
-            },
-            {
-              "rear": "Relativamente alle memorie, che cos'è il tempo di hit?\n<hr id=answer>\nIl tempo necessario per accedere al dato quando questo si trova nella cache.",
-              "typeId": 1471435194000,
-              "id": 1493983622296,
-              "front": "Relativamente alle memorie, che cos'è il tempo di hit?"
-            },
-            {
               "rear": "Che differenza c'è tra memoria indirizzata direttamente e quella indirizzata indirettamente?\n<hr id=answer>\nDirettamente: RAM (volatile, limitata dallo spazio di indirizzamento del processore)<div>Indirettamente: SWAP (non volatile, gestita dal software)<\/div>",
               "typeId": 1471435194000,
               "id": 1493887881797,
               "front": "Che differenza c'è tra memoria indirizzata direttamente e quella indirizzata indirettamente?"
             },
             {
-              "rear": "Quali sono i vantaggi delle memorie statiche?\n<hr id=answer>\n\u2022 Veloci<div>\u2022 Non hanno bisogno di refresh continui<br /><div>\u2022 Consumano poco<\/div><\/div>",
+              "rear": "Relativamente alla memoria, che cos'è il tempo di accesso?\n<hr id=answer>\nTempo richiesto per un'operazione di lettura o scrittura",
               "typeId": 1471435194000,
-              "id": 1493920059164,
-              "front": "Quali sono i vantaggi delle memorie statiche?"
+              "id": 1493887931732,
+              "front": "Relativamente alla memoria, che cos'è il tempo di accesso?"
             },
             {
-              "rear": "Cosa sono le cache full associative?\n<hr id=answer>\nCache in cui il tag è tutto l'indirizzo del blocco memorizzato",
+              "rear": "Relativamente alla memoria, che cos'è il tempo di ciclo?\n<hr id=answer>\nTempo che intercorre tra l'inizio di due operazioni su due locazioni diverse.",
               "typeId": 1471435194000,
-              "id": 1494080718647,
-              "front": "Cosa sono le cache full associative?"
-            },
-            {
-              "rear": "Che differenza c'è tra <b>D<\/b>RAM e <b>SD<\/b>RAM?\n<hr id=answer>\nLe DRAM sono asincrone, le SDRAM seguono un clock.",
-              "typeId": 1471435194000,
-              "id": 1493982660280,
-              "front": "Che differenza c'è tra <b>D<\/b>RAM e <b>SD<\/b>RAM?"
-            },
-            {
-              "rear": "Quali sono i vantaggi delle cache set associative rispetto alle full associative? \n<hr id=answer>\nA differenza delle full-assocaitive per andare a cercare un blocco non bisogna scorrere tutti i tag ma si ha un insieme limitato di blocchi da controllare.",
-              "typeId": 1471435194000,
-              "id": 1494081157741,
-              "front": "Quali sono i vantaggi delle cache set associative rispetto alle full associative? "
-            },
-            {
-              "rear": "Per quale motivo le memorie DRAM sono più lente delle SRAM?\n<hr id=answer>\nLe prime utilizzano un condensatore per memorizzare l'informazione, pertanto si deve attendere il tempo che il condensatore impiega per caricarsi/scaricarsi.<div>Per le seconde, per stabilizzarsi basta attendere il tempo di commutazione.<\/div>",
-              "typeId": 1471435194000,
-              "id": 1494499409044,
-              "front": "Per quale motivo le memorie DRAM sono più lente delle SRAM?"
+              "id": 1493888023869,
+              "front": "Relativamente alla memoria, che cos'è il tempo di ciclo?"
             },
             {
               "rear": "A cosa serve il&nbsp;Memory Data Register?\n<hr id=answer>\nÉ un registro che contiene momentaneamente informazioni recuperate dalla memoria",
@@ -442,10 +407,22 @@
               "front": "A cosa serve il&nbsp;Memory Data Register?"
             },
             {
-              "rear": "Che cosa sono le cache set associative?\n<hr id=answer>\nCiascun blocco della cache può essere mappato basandosi sui bit meno significativi (come in direct mapping) tuttavia vi sono n vie per ciascuna sequenza di bit meno significativi. ",
+              "rear": "Che cos'è il Memory Address Register?\n<hr id=answer>\nÈ un registro della CPU che contiene l'indirizzo della locazione di memoria in cui si va a leggere/scrivere.",
               "typeId": 1471435194000,
-              "id": 1494081035413,
-              "front": "Che cosa sono le cache set associative?"
+              "id": 1493919532466,
+              "front": "Che cos'è il Memory Address Register?"
+            },
+            {
+              "rear": "Quali sono i vantaggi delle memorie statiche?\n<hr id=answer>\n\u2022 Veloci<div>\u2022 Non hanno bisogno di refresh continui<br /><div>\u2022 Consumano poco<\/div><\/div>",
+              "typeId": 1471435194000,
+              "id": 1493920059164,
+              "front": "Quali sono i vantaggi delle memorie statiche?"
+            },
+            {
+              "rear": "Quali sono vantaggi delle RAM dinamiche?\n<hr id=answer>\n\u2022 Economiche",
+              "typeId": 1471435194000,
+              "id": 1493920298155,
+              "front": "Quali sono vantaggi delle RAM dinamiche?"
             },
             {
               "rear": "Per quali motivo le RAM dinamiche hanno bisogno di refresh continui?\n<hr id=answer>\nPerché il dato viene salvato come carica di un condensatore e questo tende a svanire.",
@@ -460,16 +437,34 @@
               "front": "Nelle RAM dinamiche, che cos'è il sense amplifier?"
             },
             {
+              "rear": "Che cosa si intende per \"fast page mode\" nelle DRAM?\n<hr id=answer>\nUn meccanismo che migliora le performance. Fa si che in caso di letture consecutive la riga da leggere non venga riselezionata.",
+              "typeId": 1471435194000,
+              "id": 1493982573652,
+              "front": "Che cosa si intende per \"fast page mode\" nelle DRAM?"
+            },
+            {
+              "rear": "Che differenza c'è tra <b>D<\/b>RAM e <b>SD<\/b>RAM?\n<hr id=answer>\nLe DRAM sono asincrone, le SDRAM seguono un clock.",
+              "typeId": 1471435194000,
+              "id": 1493982660280,
+              "front": "Che differenza c'è tra <b>D<\/b>RAM e <b>SD<\/b>RAM?"
+            },
+            {
+              "rear": "Perché le SDRAM sono più vantaggiose rispetto alle DRAM?\n<hr id=answer>\nIn caso di refresh dei dati, la CPU potrebbe dover attendere del tempo affinché questo venga completato. Con le SDRAM è possibile regoalre il clock in modo che il dato non venga richiesto in quell'istanza.",
+              "typeId": 1471435194000,
+              "id": 1493982862304,
+              "front": "Perché le SDRAM sono più vantaggiose rispetto alle DRAM?"
+            },
+            {
               "rear": "Che cos'è la DDR-SDRAM?\n<hr id=answer>\nUna Double Data Rate-Synchronous Dynamic RAM statica che consente il trasferimento dei dati sia sul fronte di salita che discesa del clock.",
               "typeId": 1471435194000,
               "id": 1493982979279,
               "front": "Che cos'è la DDR-SDRAM?"
             },
             {
-              "rear": "Nella cache, a che cosa serve il tag?\n<hr id=answer>\nÉ un campo, associato ad ogni blocco di cache, che aiuta a capire che indirizzo vi si trova in quel momento.",
+              "rear": "Relativamente alle memorie, che cosa si intende per principio di località temporale?\n<hr id=answer>\nLe locazioni di memoria utilizzate di recente probabilmente verranno riutilizzate a breve.",
               "typeId": 1471435194000,
-              "id": 1494077297442,
-              "front": "Nella cache, a che cosa serve il tag?"
+              "id": 1493983339282,
+              "front": "Relativamente alle memorie, che cosa si intende per principio di località temporale?"
             },
             {
               "rear": "Relativamente alle memorie, che cosa si intende per principio di località spaziale?\n<hr id=answer>\nQuando si fa riferimento ad una locazione di memoria, probabilmente nei passi successivi si farà riferimento a locazioni vicine.",
@@ -478,10 +473,28 @@
               "front": "Relativamente alle memorie, che cosa si intende per principio di località spaziale?"
             },
             {
-              "rear": "Che cos'è il Memory Address Register?\n<hr id=answer>\nÈ un registro della CPU che contiene l'indirizzo della locazione di memoria in cui si va a leggere/scrivere.",
+              "rear": "Relativamente alle memorie, che cosa si intende per hit rate?\n<hr id=answer>\nFrequenza di successo con la quale si riesce a trovare il dato in un livello della cache.",
               "typeId": 1471435194000,
-              "id": 1493919532466,
-              "front": "Che cos'è il Memory Address Register?"
+              "id": 1493983545263,
+              "front": "Relativamente alle memorie, che cosa si intende per hit rate?"
+            },
+            {
+              "rear": "Relativamente alle memorie, che cos'è il tempo di hit?\n<hr id=answer>\nIl tempo necessario per accedere al dato quando questo si trova nella cache.",
+              "typeId": 1471435194000,
+              "id": 1493983622296,
+              "front": "Relativamente alle memorie, che cos'è il tempo di hit?"
+            },
+            {
+              "rear": "Nella cache, a che cosa serve il tag?\n<hr id=answer>\nÉ un campo, associato ad ogni blocco di cache, che aiuta a capire che indirizzo vi si trova in quel momento.",
+              "typeId": 1471435194000,
+              "id": 1494077297442,
+              "front": "Nella cache, a che cosa serve il tag?"
+            },
+            {
+              "rear": "Come si calcola la dimensione del tag della cache?\n<hr id=answer>\n<img class=latex src=\"anki-images/latex-2aa0bed79942562df47e9a3bbab7bae42fb6c443.png\"><div>Dove<\/div><div><img class=latex src=\"anki-images/latex-96ab646de7704969b91c76a214126b45f2b07b25.png\"> è la dimensione dell'indirizzo<\/div><div><img class=latex src=\"anki-images/latex-7e6d5db2bad8613c9d5271d181c8a1d435703543.png\"> numero di blocchi nella cache<\/div><div><img class=latex src=\"anki-images/latex-f086ad2a2639cfbf37816de8a1dd62c05ef76bef.png\"> dimensione di un blocco nella cache<\/div>",
+              "typeId": 1471435194000,
+              "id": 1494077552240,
+              "front": "Come si calcola la dimensione del tag della cache?"
             },
             {
               "rear": "Perché all'aumentare della dimensione del blocco della cache, può aumentare anche la frequenza delle miss?\n<hr id=answer>\nAll'aumentare della dimensione del blocco è più probabile che più di una istruzione richieda dati che verrebbero scritti nello stesso blocco. Ciò crea una competizione tra i blocchi facendo si che gli uni sovrascrivano la cache degli altri.",
@@ -496,52 +509,52 @@
               "front": "Cosa significa che una cache viene gestita mediante una politica write-trough?"
             },
             {
-              "rear": "Relativamente alla memoria, che cos'è il tempo di accesso?\n<hr id=answer>\nTempo richiesto per un'operazione di lettura o scrittura",
-              "typeId": 1471435194000,
-              "id": 1493887931732,
-              "front": "Relativamente alla memoria, che cos'è il tempo di accesso?"
-            },
-            {
-              "rear": "Che cosa si intende per \"fast page mode\" nelle DRAM?\n<hr id=answer>\nUn meccanismo che migliora le performance. Fa si che in caso di letture consecutive la riga da leggere non venga riselezionata.",
-              "typeId": 1471435194000,
-              "id": 1493982573652,
-              "front": "Che cosa si intende per \"fast page mode\" nelle DRAM?"
-            },
-            {
               "rear": "Cosa significa che una cache viene gestita mediante una politica write-back?\n<hr id=answer>\nLe scritture avvengono localmente in cache e l'aggiornamento della memoria viene fatto solo quando il blocco di cache sta per esere rimpiazzato. Utilizzata quando il processore genera molte scritture.",
               "typeId": 1471435194000,
               "id": 1494079585320,
               "front": "Cosa significa che una cache viene gestita mediante una politica write-back?"
             },
             {
-              "rear": "Perché le SDRAM sono più vantaggiose rispetto alle DRAM?\n<hr id=answer>\nIn caso di refresh dei dati, la CPU potrebbe dover attendere del tempo affinché questo venga completato. Con le SDRAM è possibile regoalre il clock in modo che il dato non venga richiesto in quell'istanza.",
+              "rear": "Cosa sono le cache full associative?\n<hr id=answer>\nCache in cui il tag è tutto l'indirizzo del blocco memorizzato",
               "typeId": 1471435194000,
-              "id": 1493982862304,
-              "front": "Perché le SDRAM sono più vantaggiose rispetto alle DRAM?"
+              "id": 1494080718647,
+              "front": "Cosa sono le cache full associative?"
             },
             {
-              "rear": "Relativamente alle memorie, che cosa si intende per hit rate?\n<hr id=answer>\nFrequenza di successo con la quale si riesce a trovare il dato in un livello della cache.",
+              "rear": "Che cosa sono le cache set associative?\n<hr id=answer>\nCiascun blocco della cache può essere mappato basandosi sui bit meno significativi (come in direct mapping) tuttavia vi sono n vie per ciascuna sequenza di bit meno significativi. ",
               "typeId": 1471435194000,
-              "id": 1493983545263,
-              "front": "Relativamente alle memorie, che cosa si intende per hit rate?"
+              "id": 1494081035413,
+              "front": "Che cosa sono le cache set associative?"
             },
             {
-              "rear": "Relativamente alle memorie, che cosa si intende per principio di località temporale?\n<hr id=answer>\nLe locazioni di memoria utilizzate di recente probabilmente verranno riutilizzate a breve.",
+              "rear": "Quali sono i vantaggi delle cache set associative rispetto alle full associative? \n<hr id=answer>\nA differenza delle full-assocaitive per andare a cercare un blocco non bisogna scorrere tutti i tag ma si ha un insieme limitato di blocchi da controllare.",
               "typeId": 1471435194000,
-              "id": 1493983339282,
-              "front": "Relativamente alle memorie, che cosa si intende per principio di località temporale?"
-            },
-            {
-              "rear": "Quali sono vantaggi delle RAM dinamiche?\n<hr id=answer>\n\u2022 Economiche",
-              "typeId": 1471435194000,
-              "id": 1493920298155,
-              "front": "Quali sono vantaggi delle RAM dinamiche?"
+              "id": 1494081157741,
+              "front": "Quali sono i vantaggi delle cache set associative rispetto alle full associative? "
             },
             {
               "rear": "Cosa sono le cache a mappatura diretta?\n<hr id=answer>\nCache che utilizzano i bit meno significativi per trovare la posizione in cui piazzarci il dato da cacheare.",
               "typeId": 1471435194000,
               "id": 1494081589687,
               "front": "Cosa sono le cache a mappatura diretta?"
+            },
+            {
+              "rear": "Per quale motivo le memorie DRAM sono più lente delle SRAM?\n<hr id=answer>\nLe prime utilizzano un condensatore per memorizzare l'informazione, pertanto si deve attendere il tempo che il condensatore impiega per caricarsi/scaricarsi.<div>Per le seconde, per stabilizzarsi basta attendere il tempo di commutazione.<\/div>",
+              "typeId": 1471435194000,
+              "id": 1494499409044,
+              "front": "Per quale motivo le memorie DRAM sono più lente delle SRAM?"
+            },
+            {
+              "rear": "Quanti fili sono necessari per indirizzare 2MB in memoria?\n<hr id=answer>\n1MB =&nbsp;<img class=latex src=\"anki-images/latex-f6f4fb515f1d3a096a15a3bdce0db5aab3c5503f.png\"> byte, quindi 2MB =&nbsp;<img class=latex src=\"anki-images/latex-7540b742048807a30c86af0d95b516965afb2a24.png\">byte. Servono quindi 21 fili.",
+              "typeId": 1471435194000,
+              "id": 1495099603411,
+              "front": "Quanti fili sono necessari per indirizzare 2MB in memoria?"
+            },
+            {
+              "rear": "Per quale motivo è vantaggioso dividere la memoria in righe e colonne?\n<hr id=answer>\nSi ha bisogno di meno fili per organizzare la memoria. Per esempio è possibile utilizzare un primo ciclo per specificare l'indirizzo della riga e quello dopo quello di colonna, riutilizzando in questo modo i fili.",
+              "typeId": 1471435194000,
+              "id": 1495099998675,
+              "front": "Per quale motivo è vantaggioso dividere la memoria in righe e colonne?"
             }
           ],
           "categoryName": "CalcLect13-MEM"
@@ -572,34 +585,28 @@
         {
           "cards": [
             {
-              "rear": "Per quale motivo si preferisce evitare di utilizzare un bus sincrono?\n<hr id=answer>\nTutte le periferiche devono andare alla stessa velocità ed è impossibile adattare il clock per ravvelocizzare le operazioni con le periferiche più veloci.",
-              "typeId": 1471435194000,
-              "id": 1494089457864,
-              "front": "Per quale motivo si preferisce evitare di utilizzare un bus sincrono?"
-            },
-            {
               "rear": "Che cos'è un BUS?\n<hr id=answer>\nÉ un dispositivo di comunicazione di un elaboratore che permette di comunicare con le perifercihe di I/O.",
               "typeId": 1471435194000,
               "id": 1494087862077,
               "front": "Che cos'è un BUS?"
             },
             {
-              "rear": "In che modo la CPU è in grado di inviare comandi alle periferiche?\n<hr id=answer>\nScrivendo/leggendo particolari locazioni di memoria, decise dal sistema operativo. Quest'ultimo modifica i segnali del BUS per far avenire la comuncazione.",
+              "rear": "Per quale motivo si preferisce evitare di utilizzare un bus sincrono?\n<hr id=answer>\nTutte le periferiche devono andare alla stessa velocità ed è impossibile adattare il clock per ravvelocizzare le operazioni con le periferiche più veloci.",
               "typeId": 1471435194000,
-              "id": 1494090800592,
-              "front": "In che modo la CPU è in grado di inviare comandi alle periferiche?"
-            },
-            {
-              "rear": "Che cos'è la modalità supervisore del processore?\n<hr id=answer>\nUna particolare modalità del processore che permette al sistema operativo di scrivere nelle locazioni di memoria dedicate associate ai dispositivi.",
-              "typeId": 1471435194000,
-              "id": 1494091839943,
-              "front": "Che cos'è la modalità supervisore del processore?"
+              "id": 1494089457864,
+              "front": "Per quale motivo si preferisce evitare di utilizzare un bus sincrono?"
             },
             {
               "rear": "Che cos'è un interrupt?\n<hr id=answer>\nUn segnale asincrono che invia una periferica o un processo al sistema operativo. Questo causa al processore di dover salvare il suo attuale stato e cominciare ad eseguire una subroutine del compito richiesto.",
               "typeId": 1471435194000,
               "id": 1494090451083,
               "front": "Che cos'è un interrupt?"
+            },
+            {
+              "rear": "In che modo la CPU è in grado di inviare comandi alle periferiche?\n<hr id=answer>\nScrivendo/leggendo particolari locazioni di memoria, decise dal sistema operativo. Quest'ultimo modifica i segnali del BUS per far avenire la comuncazione.",
+              "typeId": 1471435194000,
+              "id": 1494090800592,
+              "front": "In che modo la CPU è in grado di inviare comandi alle periferiche?"
             },
             {
               "rear": "Che cosa si intende per polling relativamente alla comunicazione del sistema operativo con le periferiche?\n<hr id=answer>\nUn modo che ha il sistema operativo per comunicare con la periferica. Una volta inviato un dato alla periferica, il sistema operativo rimane in attesa che questa risponda facendo un ciclo di letture sulla locazione di memoria sulla quale il dispositivo dovrebbe scrivere.",
@@ -612,6 +619,12 @@
               "typeId": 1471435194000,
               "id": 1494091418875,
               "front": "Quali sono gli svantaggi dell'utilizzo degli interrupt IO?"
+            },
+            {
+              "rear": "Che cos'è la modalità supervisore del processore?\n<hr id=answer>\nUna particolare modalità del processore che permette al sistema operativo di scrivere nelle locazioni di memoria dedicate associate ai dispositivi.",
+              "typeId": 1471435194000,
+              "id": 1494091839943,
+              "front": "Che cos'è la modalità supervisore del processore?"
             }
           ],
           "categoryName": "CalcLect15-IO"
@@ -619,22 +632,10 @@
         {
           "cards": [
             {
-              "rear": "Che cosa si intende per parallelizzazione statica?\n<hr id=answer>\nDurante la compilazione il compilatore decide quali istruzioni sono da eseguire in parallelo e gestisce gli eventuali hazard.",
+              "rear": "Per quale motivo la pipeline dei processori ARM ed Intel è composta da 14 stadi?\n<hr id=answer>\nCon più stadi le istruzioni più lunghe sono divise in più sottofasi; questo riduce il tempo necessario per eseguire le istruzioni più lunghe e quindi è possibile diminuire il periodo di clock.",
               "typeId": 1471435194000,
-              "id": 1494236640644,
-              "front": "Che cosa si intende per parallelizzazione statica?"
-            },
-            {
-              "rear": "In un processore con parallelizzazione dinamica che cosa si intende per <i>out of order execution<\/i>?\n<hr id=answer>\nLe istruzioni vengono riordinate dalla CPU in maniera tale da riuscire ad eseguirne il maggior numero possibile in parallelo (senza cambiare il risultato finale).",
-              "typeId": 1471435194000,
-              "id": 1494238273910,
-              "front": "In un processore con parallelizzazione dinamica che cosa si intende per <i>out of order execution<\/i>?"
-            },
-            {
-              "rear": "Che cosa sono registri del processore <i>invisibili<\/i>?\n<hr id=answer>\nRegistri a cui non è possibile accedere direttamente mediante istruzioni macchina (es: Address Register)",
-              "typeId": 1471435194000,
-              "id": 1494253450030,
-              "front": "Che cosa sono registri del processore <i>invisibili<\/i>?"
+              "id": 1494235812719,
+              "front": "Per quale motivo la pipeline dei processori ARM ed Intel è composta da 14 stadi?"
             },
             {
               "rear": "In che modo dei processori Intel siano in grado di avere un CPI &lt; 1?\n<hr id=answer>\nAttraverso più di una pipeline in parallelo.",
@@ -649,16 +650,16 @@
               "front": "Per quale motivo avere pipeline molto lunghe potrebbe non essere un vantaggio?"
             },
             {
-              "rear": "Che cosa si intende per <i>very long instruction word<\/i>?\n<hr id=answer>\nNei processori con <i>n<\/i> pipeline il compilatore può specificare quali istruzioni vanno essere eseguite in parallelo, per farlo utilizza delle istruzioni VLIW. Si tratta di una sorta di macro istruzione, lunga <i>n<\/i>&nbsp;istruzioni.",
+              "rear": "Per quale motivo avere più di una pipeline potrebbe non essere un vantaggio?\n<hr id=answer>\nAvere più di una pipeline comporta grossa complessità nell'hardware ed overhead.",
               "typeId": 1471435194000,
-              "id": 1494237911118,
-              "front": "Che cosa si intende per <i>very long instruction word<\/i>?"
+              "id": 1494236491726,
+              "front": "Per quale motivo avere più di una pipeline potrebbe non essere un vantaggio?"
             },
             {
-              "rear": "Per quale motivo la pipeline dei processori ARM ed Intel è composta da 14 stadi?\n<hr id=answer>\nCon più stadi le istruzioni più lunghe sono divise in più sottofasi; questo riduce il tempo necessario per eseguire le istruzioni più lunghe e quindi è possibile diminuire il periodo di clock.",
+              "rear": "Che cosa si intende per parallelizzazione statica?\n<hr id=answer>\nDurante la compilazione il compilatore decide quali istruzioni sono da eseguire in parallelo e gestisce gli eventuali hazard.",
               "typeId": 1471435194000,
-              "id": 1494235812719,
-              "front": "Per quale motivo la pipeline dei processori ARM ed Intel è composta da 14 stadi?"
+              "id": 1494236640644,
+              "front": "Che cosa si intende per parallelizzazione statica?"
             },
             {
               "rear": "Che cosa si intende per parallelizzazione dinamica?\n<hr id=answer>\nL'hardware della CPU decide quali sono le istruzioni che devono essere eseguite in parallelo.&nbsp;",
@@ -667,275 +668,42 @@
               "front": "Che cosa si intende per parallelizzazione dinamica?"
             },
             {
-              "rear": "Per quale motivo avere più di una pipeline potrebbe non essere un vantaggio?\n<hr id=answer>\nAvere più di una pipeline comporta grossa complessità nell'hardware ed overhead.",
+              "rear": "Che cosa si intende per <i>very long instruction word<\/i>?\n<hr id=answer>\nNei processori con <i>n<\/i> pipeline il compilatore può specificare quali istruzioni vanno essere eseguite in parallelo, per farlo utilizza delle istruzioni VLIW. Si tratta di una sorta di macro istruzione, lunga <i>n<\/i>&nbsp;istruzioni.",
               "typeId": 1471435194000,
-              "id": 1494236491726,
-              "front": "Per quale motivo avere più di una pipeline potrebbe non essere un vantaggio?"
+              "id": 1494237911118,
+              "front": "Che cosa si intende per <i>very long instruction word<\/i>?"
+            },
+            {
+              "rear": "In un processore con parallelizzazione dinamica che cosa si intende per <i>out of order execution<\/i>?\n<hr id=answer>\nLe istruzioni vengono riordinate dalla CPU in maniera tale da riuscire ad eseguirne il maggior numero possibile in parallelo (senza cambiare il risultato finale).",
+              "typeId": 1471435194000,
+              "id": 1494238273910,
+              "front": "In un processore con parallelizzazione dinamica che cosa si intende per <i>out of order execution<\/i>?"
+            },
+            {
+              "rear": "Che cosa sono registri del processore <i>invisibili<\/i>?\n<hr id=answer>\nRegistri a cui non è possibile accedere direttamente mediante istruzioni macchina (es: Address Register)",
+              "typeId": 1471435194000,
+              "id": 1494253450030,
+              "front": "Che cosa sono registri del processore <i>invisibili<\/i>?"
             }
           ],
           "categoryName": "CalcLect16-av"
         }
-      ]
+      ],
+      "authors": "Slava"
     },
     {
       "cards": [
         {
-          "rear": "In MIPS com'è codificata un'istruzione macchina immediata?\n<hr id=answer>\n<img src=\"anki-images/paste-84615150698497.jpg\" /><div>rs: registro contenente l'indirizzo di base<\/div><div>rt: registro target (destinazione)<\/div><div>costante o indirizzo: costante o indirizzo o offset<\/div>",
-          "typeId": 1471435194000,
-          "id": 1493044418458,
-          "front": "In MIPS com'è codificata un'istruzione macchina immediata?"
-        },
-        {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>lui $s1, 20<\/pre>\n<\/div>\n\n<hr id=answer>\n\nCarica 20 nella mezza parola superiore del registro $s1",
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>add dest, a, b<\/pre>\n<\/div>\n\n<hr id=answer>\n\nCalcola a + b e salva il risultato in dest",
           "typeId": 1471435193999,
-          "id": 1493048217772,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>lui $s1, 20<\/pre>\n<\/div>"
+          "id": 1493040899178,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>add dest, a, b<\/pre>\n<\/div>"
         },
         {
-          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salta di 25*4 istruzioni in avanti se $s1 = $s2<\/em><\/div>\n\n<hr id=answer>\n\n<pre>beq $s1, $s2, 25<\/pre>",
+          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Calcola a + b e salva il risultato in dest<\/em><\/div>\n\n<hr id=answer>\n\n<pre>add dest, a, b<\/pre>",
           "typeId": 1471435193999,
-          "id": 1493048611994,
-          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salta di 25*4 istruzioni in avanti se $s1 = $s2<\/em><\/div>"
-        },
-        {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>slti $s1, $s2, 20<\/pre>\n<\/div>\n\n<hr id=answer>\n\nPoni $s1 = 1 se $s2 &lt; 20, altrimenti poni $s1 = 0",
-          "typeId": 1471435193999,
-          "id": 1493049607299,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>slti $s1, $s2, 20<\/pre>\n<\/div>"
-        },
-        {
-          "rear": "Nelle architetture MIPS, di solito per cosa vengono utilizzati i registri $v0 e $v1?\n<hr id=answer>\nValori di ritorno delle subroutine",
-          "typeId": 1471435194000,
-          "id": 1493075731515,
-          "front": "Nelle architetture MIPS, di solito per cosa vengono utilizzati i registri $v0 e $v1?"
-        },
-        {
-          "rear": "Nell'architettura Intel, per cosa viene solitamente utilizzato il registro rbp?\n<hr id=answer>\nMemorizza il base pointer (puntatore allo stack frame)",
-          "typeId": 1471435194000,
-          "id": 1493077806528,
-          "front": "Nell'architettura Intel, per cosa viene solitamente utilizzato il registro rbp?"
-        },
-        {
-          "rear": "Nell'architettura Intel, in che modo il registro rax viene esteso?\n<hr id=answer>\nrax 64 bit &gt; eax 32 bit &gt; ax 16 bit composto da ah + al",
-          "typeId": 1471435194000,
-          "id": 1493114619666,
-          "front": "Nell'architettura Intel, in che modo il registro rax viene esteso?"
-        },
-        {
-          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Trasferisce mezza parola da $s2 ofsettata di 20 nel registro $s1 senza tenere conto del segno.<\/em><\/div>\n\n<hr id=answer>\n\n<pre>lhu $s1, 20($s2)<\/pre>",
-          "typeId": 1471435193999,
-          "id": 1493048015474,
-          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Trasferisce mezza parola da $s2 ofsettata di 20 nel registro $s1 senza tenere conto del segno.<\/em><\/div>"
-        },
-        {
-          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Shift logico a sinistra di 10 bit del registro $s2 salvando il risultato in $s1<\/em><\/div>\n\n<hr id=answer>\n\n<pre>sll $s1 $s2, 10<\/pre>",
-          "typeId": 1471435193999,
-          "id": 1493048423447,
-          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Shift logico a sinistra di 10 bit del registro $s2 salvando il risultato in $s1<\/em><\/div>"
-        },
-        {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>slt $s1,$s2,$s3<\/pre>\n<\/div>\n\n<hr id=answer>\n\nPoni&nbsp;$s1 = 1 se $s2 < $s3,&nbsp;altrimenti poni $s1 = 0",
-          "typeId": 1471435193999,
-          "id": 1493048785164,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>slt $s1,$s2,$s3<\/pre>\n<\/div>"
-        },
-        {
-          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Poni&nbsp;$s1 = 1 se $s2 < $s3,&nbsp;altrimenti poni $s1 = 0<\/em><\/div>\n\n<hr id=answer>\n\n<pre>slt $s1,$s2,$s3<\/pre>",
-          "typeId": 1471435193999,
-          "id": 1493048785165,
-          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Poni&nbsp;$s1 = 1 se $s2 < $s3,&nbsp;altrimenti poni $s1 = 0<\/em><\/div>"
-        },
-        {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>neg %eax<\/pre>\n<\/div>\n\n<hr id=answer>\n\nCalcola il complemento a 2 del registro %eax",
-          "typeId": 1471435193999,
-          "id": 1493149886796,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>neg %eax<\/pre>\n<\/div>"
-        },
-        {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>jal 200<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSalta all'indirizzo 200 e memorizza in $ra l'indirizzo di ritorno",
-          "typeId": 1471435193999,
-          "id": 1493054986211,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>jal 200<\/pre>\n<\/div>"
-        },
-        {
-          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salta all'indirizzo 200 e memorizza in $ra l'indirizzo di ritorno<\/em><\/div>\n\n<hr id=answer>\n\n<pre>jal 200<\/pre>",
-          "typeId": 1471435193999,
-          "id": 1493054986212,
-          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salta all'indirizzo 200 e memorizza in $ra l'indirizzo di ritorno<\/em><\/div>"
-        },
-        {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>push %ebp<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSalva il contenuto di %ebp nello stack",
-          "typeId": 1471435193999,
-          "id": 1493148455216,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>push %ebp<\/pre>\n<\/div>"
-        },
-        {
-          "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Somma %rax a %rbx e salva il risultato in %rbx<\/em><\/div>\n\n<hr id=answer>\n\n<pre>add %rax, %rbx<\/pre>",
-          "typeId": 1471435193999,
-          "id": 1493148619342,
-          "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Somma %rax a %rbx e salva il risultato in %rbx<\/em><\/div>"
-        },
-        {
-          "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salta alla posizione di memoria 400<\/em><\/div>\n\n<hr id=answer>\n\n<pre>jmp 400<\/pre>",
-          "typeId": 1471435193999,
-          "id": 1493149511663,
-          "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salta alla posizione di memoria 400<\/em><\/div>"
-        },
-        {
-          "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salta alla posizione 100 se il cmp precedente ha dato come risultato \"maggiore di\"<\/em><\/div>\n\n<hr id=answer>\n\n<pre>jg 100<\/pre>",
-          "typeId": 1471435193999,
-          "id": 1493149815826,
-          "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salta alla posizione 100 se il cmp precedente ha dato come risultato \"maggiore di\"<\/em><\/div>"
-        },
-        {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>sll $s1 $s2, 10<\/pre>\n<\/div>\n\n<hr id=answer>\n\nShift logico a sinistra di 10 bit del registro $s2 salvando il risultato in $s1",
-          "typeId": 1471435193999,
-          "id": 1493048423446,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>sll $s1 $s2, 10<\/pre>\n<\/div>"
-        },
-        {
-          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Poni $s1 = 1 se $s2 &lt; 20 confrontando senza segno, altrimenti $s1 = 0<\/em><\/div>\n\n<hr id=answer>\n\n<pre>sltiu $s1,$s2,20<\/pre>",
-          "typeId": 1471435193999,
-          "id": 1493049790939,
-          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Poni $s1 = 1 se $s2 &lt; 20 confrontando senza segno, altrimenti $s1 = 0<\/em><\/div>"
-        },
-        {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>sra $t1, $t2, 5<\/pre>\n<\/div>\n\n<hr id=answer>\n\nShift a destra di 5 del contenuto di $t2 tenendo conto del segno, salvando il risultato $t1",
-          "typeId": 1471435193999,
-          "id": 1493050556072,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>sra $t1, $t2, 5<\/pre>\n<\/div>"
-        },
-        {
-          "rear": "Nelle architetture MIPS, di solito per cosa vengono utilizzati i registri $a0-$a4?\n<hr id=answer>\nParametri in ingresso delle subroutine",
-          "typeId": 1471435194000,
-          "id": 1493075749537,
-          "front": "Nelle architetture MIPS, di solito per cosa vengono utilizzati i registri $a0-$a4?"
-        },
-        {
-          "rear": "Qual è la dimensione dei registri nell'architettura Intel?\n<hr id=answer>\n64 bit",
-          "typeId": 1471435194000,
-          "id": 1493113834685,
-          "front": "Qual è la dimensione dei registri nell'architettura Intel?"
-        },
-        {
-          "rear": "Nell'architettura Intel come funziona l'accesso indiretto alle locazioni di memoria?\n<hr id=answer>\n[&lt;displ&gt;](&lt;base reg&gt;[,&lt;index reg&gt;[, &lt;scale&gt;]])<div>&lt;displ&gt;: Spiazzamento<\/div><div>&lt;base reg&gt;: il registro con l'indirizzo di base<\/div><div>&lt;index reg&gt;: registro contenente l'indice (per iterazioni)<\/div><div>&lt;scale&gt;: dev'essere 1,2,4, o 8; moltiplica &lt;index reg&gt;<\/div>",
-          "typeId": 1471435194000,
-          "id": 1493116112084,
-          "front": "Nell'architettura Intel come funziona l'accesso indiretto alle locazioni di memoria?"
-        },
-        {
-          "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Moltiplica il contenuto di $rbx per $rax<\/em><\/div>\n\n<hr id=answer>\n\n<pre>mul $rax, $rbx<\/pre>",
-          "typeId": 1471435193999,
-          "id": 1493148883096,
-          "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Moltiplica il contenuto di $rbx per $rax<\/em><\/div>"
-        },
-        {
-          "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salta alla posizione 100 se il cmp precedente ha dato come risultato \"uguale\"<\/em><\/div>\n\n<hr id=answer>\n\n<pre>jeq 100<\/pre>",
-          "typeId": 1471435193999,
-          "id": 1493149712460,
-          "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salta alla posizione 100 se il cmp precedente ha dato come risultato \"uguale\"<\/em><\/div>"
-        },
-        {
-          "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Calcola il complemento a 2 del registro %eax<\/em><\/div>\n\n<hr id=answer>\n\n<pre>neg %eax<\/pre>",
-          "typeId": 1471435193999,
-          "id": 1493149886797,
-          "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Calcola il complemento a 2 del registro %eax<\/em><\/div>"
-        },
-        {
-          "rear": "In che modo nell'architettura MIPS è possibile effettuare operazioni aritmetiche in memoria?\n<hr id=answer>\nNon è possibile. È possibile effettuare operazioni logiche e aritmetiche solo tra registri",
-          "typeId": 1471435194000,
-          "id": 1493042174679,
-          "front": "In che modo nell'architettura MIPS è possibile effettuare operazioni aritmetiche in memoria?"
-        },
-        {
-          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salva in memoria $s2 ofsettato di 20 un byte che si trova in $s1<\/em><\/div>\n\n<hr id=answer>\n\n<pre>sb $s1, 20($s2)<\/pre>",
-          "typeId": 1471435193999,
-          "id": 1493047907283,
-          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salva in memoria $s2 ofsettato di 20 un byte che si trova in $s1<\/em><\/div>"
-        },
-        {
-          "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salva il contenuto di %ebp nello stack<\/em><\/div>\n\n<hr id=answer>\n\n<pre>push %ebp<\/pre>",
-          "typeId": 1471435193999,
-          "id": 1493148455217,
-          "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salva il contenuto di %ebp nello stack<\/em><\/div>"
-        },
-        {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>pop %ebp<\/pre>\n<\/div>\n\n<hr id=answer>\n\nCarica il contenuto dello stack e lo salva in %ebp",
-          "typeId": 1471435193999,
-          "id": 1493148526513,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>pop %ebp<\/pre>\n<\/div>"
-        },
-        {
-          "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Incrementa il registro %rbx di 1<\/em><\/div>\n\n<hr id=answer>\n\n<pre>inc %rbx<\/pre>",
-          "typeId": 1471435193999,
-          "id": 1493148669383,
-          "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Incrementa il registro %rbx di 1<\/em><\/div>"
-        },
-        {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>xor %eax, %ebx<\/pre>\n<\/div>\n\n<hr id=answer>\n\nEsegue la XOR logica tra %eax e %ebx e salva il risultato in %ebx",
-          "typeId": 1471435193999,
-          "id": 1493148969742,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>xor %eax, %ebx<\/pre>\n<\/div>"
-        },
-        {
-          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Simula un registro che contiene il valore zero.<\/em><\/div>\n\n<hr id=answer>\n\n<pre>$zero<\/pre>",
-          "typeId": 1471435193999,
-          "id": 1493043588603,
-          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Simula un registro che contiene il valore zero.<\/em><\/div>"
-        },
-        {
-          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Carica 20 nella mezza parola superiore del registro $s1<\/em><\/div>\n\n<hr id=answer>\n\n<pre>lui $s1, 20<\/pre>",
-          "typeId": 1471435193999,
-          "id": 1493048217773,
-          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Carica 20 nella mezza parola superiore del registro $s1<\/em><\/div>"
-        },
-        {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>mov %esp, %eax<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSposta il contenuto del registro %esp nel registro %eax",
-          "typeId": 1471435193999,
-          "id": 1493148326620,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>mov %esp, %eax<\/pre>\n<\/div>"
-        },
-        {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>jg 100<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSalta alla posizione 100 se il cmp precedente ha dato come risultato \"maggiore di\"",
-          "typeId": 1471435193999,
-          "id": 1493149815825,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>jg 100<\/pre>\n<\/div>"
-        },
-        {
-          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salva in $s3 spaziato di 48 il contenuto di $t0<\/em><\/div>\n\n<hr id=answer>\n\n<pre>sw $t0, 48($s3);<\/pre>",
-          "typeId": 1471435193999,
-          "id": 1493043322600,
-          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salva in $s3 spaziato di 48 il contenuto di $t0<\/em><\/div>"
-        },
-        {
-          "rear": "In MIPS com'è codificata un'istruzione macchina R?\n<hr id=answer>\n<div><br /><\/div><img src=\"anki-images/paste-81522774245377.jpg\" /><div>OP: opcode operazione<\/div><div>rs: primo operando sorgente<\/div><div>rt: secondo operando sorgente<\/div><div>rd: operando destinazione<\/div><div>shamt: shift amount<\/div><div>funct:&nbsp;definisce una funzionalita\u2019&nbsp;specifica dell\u2019istruzione (utilizzata insieme ad op)<\/div><div><br /><\/div>",
-          "typeId": 1471435194000,
-          "id": 1493043988861,
-          "front": "In MIPS com'è codificata un'istruzione macchina R?"
-        },
-        {
-          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Poni $s1 = 1 se $s2 &lt; 20, altrimenti poni $s1 = 0<\/em><\/div>\n\n<hr id=answer>\n\n<pre>slti $s1, $s2, 20<\/pre>",
-          "typeId": 1471435193999,
-          "id": 1493049607300,
-          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Poni $s1 = 1 se $s2 &lt; 20, altrimenti poni $s1 = 0<\/em><\/div>"
-        },
-        {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>j 2500<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSalta all'indirizzo 2500",
-          "typeId": 1471435193999,
-          "id": 1493049838496,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>j 2500<\/pre>\n<\/div>"
-        },
-        {
-          "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Esegue la XOR logica tra %eax e %ebx e salva il risultato in %ebx<\/em><\/div>\n\n<hr id=answer>\n\n<pre>xor %eax, %ebx<\/pre>",
-          "typeId": 1471435193999,
-          "id": 1493148969758,
-          "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Esegue la XOR logica tra %eax e %ebx e salva il risultato in %ebx<\/em><\/div>"
-        },
-        {
-          "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Calcola in %edi la posizione in memoria indicata da %ebx + %esi*8<\/em><\/div>\n\n<hr id=answer>\n\n<pre>lea (%ebx,%esi,8), %edi<\/pre>",
-          "typeId": 1471435193999,
-          "id": 1493149287119,
-          "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Calcola in %edi la posizione in memoria indicata da %ebx + %esi*8<\/em><\/div>"
+          "id": 1493040899184,
+          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Calcola a + b e salva il risultato in dest<\/em><\/div>"
         },
         {
           "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>sub dest, a, b<\/pre>\n<\/div>\n\n<hr id=answer>\n\nCalcola a - b e salva il risultato in dest",
@@ -944,22 +712,196 @@
           "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>sub dest, a, b<\/pre>\n<\/div>"
         },
         {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>sar 8, %eax<\/pre>\n<\/div>\n\n<hr id=answer>\n\nShifta di 8 posizioni a destra il contenuto di %eax tenendo conto del segno",
-          "typeId": 1471435193999,
-          "id": 1493149484807,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>sar 8, %eax<\/pre>\n<\/div>"
-        },
-        {
           "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Calcola a - b e salva il risultato in dest<\/em><\/div>\n\n<hr id=answer>\n\n<pre>sub dest, a, b<\/pre>",
           "typeId": 1471435193999,
           "id": 1493041862698,
           "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Calcola a - b e salva il risultato in dest<\/em><\/div>"
         },
         {
+          "rear": "Nell'assembly MIPS, come si indica che un operando è un registro?\n<hr id=answer>\nLo si fa precedere da $.",
+          "typeId": 1471435194000,
+          "id": 1493042035320,
+          "front": "Nell'assembly MIPS, come si indica che un operando è un registro?"
+        },
+        {
+          "rear": "In che modo nell'architettura MIPS è possibile effettuare operazioni aritmetiche in memoria?\n<hr id=answer>\nNon è possibile. È possibile effettuare operazioni logiche e aritmetiche solo tra registri",
+          "typeId": 1471435194000,
+          "id": 1493042174679,
+          "front": "In che modo nell'architettura MIPS è possibile effettuare operazioni aritmetiche in memoria?"
+        },
+        {
+          "rear": "A cosa corrisponde solitamente la dimensione di un word?\n<hr id=answer>\nÈ quella di un registro",
+          "typeId": 1471435194000,
+          "id": 1493042428959,
+          "front": "A cosa corrisponde solitamente la dimensione di un word?"
+        },
+        {
+          "rear": "Come si specifica nell'assembler MIPS un indirizzo di memoria?\n<hr id=answer>\nMediante una base ed uno spiazzamento (offset) dalla base.<div>Per esempio: <code>4($s3)<\/code>ha la base <code>$s3<\/code> ed un offset di <code>4<\/code>.<\/div>",
+          "typeId": 1471435194000,
+          "id": 1493043056199,
+          "front": "Come si specifica nell'assembler MIPS un indirizzo di memoria?"
+        },
+        {
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>lw $t0, 4($3)<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSalva in&nbsp;$t0 una parola all'indirizzo $3 spaziato di 4 byte",
+          "typeId": 1471435193999,
+          "id": 1493043121993,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>lw $t0, 4($3)<\/pre>\n<\/div>"
+        },
+        {
+          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salva in&nbsp;$t0 una parola all'indirizzo $3 spaziato di 4 byte<\/em><\/div>\n\n<hr id=answer>\n\n<pre>lw $t0, 4($3)<\/pre>",
+          "typeId": 1471435193999,
+          "id": 1493043121994,
+          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salva in&nbsp;$t0 una parola all'indirizzo $3 spaziato di 4 byte<\/em><\/div>"
+        },
+        {
+          "rear": "Qual è la dimensione di una word in MIPS?\n<hr id=answer>\n4 byte",
+          "typeId": 1471435194000,
+          "id": 1493043227275,
+          "front": "Qual è la dimensione di una word in MIPS?"
+        },
+        {
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>sw $t0, 48($s3);<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSalva in $s3 spaziato di 48 il contenuto di $t0",
+          "typeId": 1471435193999,
+          "id": 1493043322599,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>sw $t0, 48($s3);<\/pre>\n<\/div>"
+        },
+        {
+          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salva in $s3 spaziato di 48 il contenuto di $t0<\/em><\/div>\n\n<hr id=answer>\n\n<pre>sw $t0, 48($s3);<\/pre>",
+          "typeId": 1471435193999,
+          "id": 1493043322600,
+          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salva in $s3 spaziato di 48 il contenuto di $t0<\/em><\/div>"
+        },
+        {
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>addi $s3, $s3, 4<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSomma 4 ad $s3",
+          "typeId": 1471435193999,
+          "id": 1493043486847,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>addi $s3, $s3, 4<\/pre>\n<\/div>"
+        },
+        {
+          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Somma 4 ad $s3<\/em><\/div>\n\n<hr id=answer>\n\n<pre>addi $s3, $s3, 4<\/pre>",
+          "typeId": 1471435193999,
+          "id": 1493043486848,
+          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Somma 4 ad $s3<\/em><\/div>"
+        },
+        {
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>$zero<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSimula un registro che contiene il valore zero.",
+          "typeId": 1471435193999,
+          "id": 1493043588602,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>$zero<\/pre>\n<\/div>"
+        },
+        {
+          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Simula un registro che contiene il valore zero.<\/em><\/div>\n\n<hr id=answer>\n\n<pre>$zero<\/pre>",
+          "typeId": 1471435193999,
+          "id": 1493043588603,
+          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Simula un registro che contiene il valore zero.<\/em><\/div>"
+        },
+        {
+          "rear": "In MIPS com'è codificata un'istruzione macchina R?\n<hr id=answer>\n<div><br /><\/div><img src=\"anki-images/paste-81522774245377.jpg\" /><div>OP: opcode operazione<\/div><div>rs: primo operando sorgente<\/div><div>rt: secondo operando sorgente<\/div><div>rd: operando destinazione<\/div><div>shamt: shift amount<\/div><div>funct:&nbsp;definisce una funzionalita\u2019&nbsp;specifica dell\u2019istruzione (utilizzata insieme ad op)<\/div><div><br /><\/div>",
+          "typeId": 1471435194000,
+          "id": 1493043988861,
+          "front": "In MIPS com'è codificata un'istruzione macchina R?"
+        },
+        {
+          "rear": "In MIPS com'è codificata un'istruzione macchina immediata?\n<hr id=answer>\n<img src=\"anki-images/paste-84615150698497.jpg\" /><div>rs: registro contenente l'indirizzo di base<\/div><div>rt: registro target (destinazione)<\/div><div>costante o indirizzo: costante o indirizzo o offset<\/div>",
+          "typeId": 1471435194000,
+          "id": 1493044418458,
+          "front": "In MIPS com'è codificata un'istruzione macchina immediata?"
+        },
+        {
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>lh $s1, 20($s2)<\/pre>\n<\/div>\n\n<hr id=answer>\n\nLegge mezza parola da $s2 ofsettata di 20 e la salva in $s1",
+          "typeId": 1471435193999,
+          "id": 1493047755098,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>lh $s1, 20($s2)<\/pre>\n<\/div>"
+        },
+        {
           "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Legge mezza parola da $s2 ofsettata di 20 e la salva in $s1<\/em><\/div>\n\n<hr id=answer>\n\n<pre>lh $s1, 20($s2)<\/pre>",
           "typeId": 1471435193999,
           "id": 1493047755099,
           "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Legge mezza parola da $s2 ofsettata di 20 e la salva in $s1<\/em><\/div>"
+        },
+        {
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>sb $s1, 20($s2)<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSalva in memoria $s2 ofsettato di 20 un byte che si trova in $s1",
+          "typeId": 1471435193999,
+          "id": 1493047907282,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>sb $s1, 20($s2)<\/pre>\n<\/div>"
+        },
+        {
+          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salva in memoria $s2 ofsettato di 20 un byte che si trova in $s1<\/em><\/div>\n\n<hr id=answer>\n\n<pre>sb $s1, 20($s2)<\/pre>",
+          "typeId": 1471435193999,
+          "id": 1493047907283,
+          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salva in memoria $s2 ofsettato di 20 un byte che si trova in $s1<\/em><\/div>"
+        },
+        {
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>lhu $s1, 20($s2)<\/pre>\n<\/div>\n\n<hr id=answer>\n\nTrasferisce mezza parola da $s2 ofsettata di 20 nel registro $s1 senza tenere conto del segno.",
+          "typeId": 1471435193999,
+          "id": 1493048015473,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>lhu $s1, 20($s2)<\/pre>\n<\/div>"
+        },
+        {
+          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Trasferisce mezza parola da $s2 ofsettata di 20 nel registro $s1 senza tenere conto del segno.<\/em><\/div>\n\n<hr id=answer>\n\n<pre>lhu $s1, 20($s2)<\/pre>",
+          "typeId": 1471435193999,
+          "id": 1493048015474,
+          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Trasferisce mezza parola da $s2 ofsettata di 20 nel registro $s1 senza tenere conto del segno.<\/em><\/div>"
+        },
+        {
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>lui $s1, 20<\/pre>\n<\/div>\n\n<hr id=answer>\n\nCarica 20 nella mezza parola superiore del registro $s1",
+          "typeId": 1471435193999,
+          "id": 1493048217772,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>lui $s1, 20<\/pre>\n<\/div>"
+        },
+        {
+          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Carica 20 nella mezza parola superiore del registro $s1<\/em><\/div>\n\n<hr id=answer>\n\n<pre>lui $s1, 20<\/pre>",
+          "typeId": 1471435193999,
+          "id": 1493048217773,
+          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Carica 20 nella mezza parola superiore del registro $s1<\/em><\/div>"
+        },
+        {
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>and $s1, $s2, $s3<\/pre>\n<\/div>\n\n<hr id=answer>\n\nCalcola AND bit a bit tra $s2 ed $s3 e salva il risultato in $s1",
+          "typeId": 1471435193999,
+          "id": 1493048279022,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>and $s1, $s2, $s3<\/pre>\n<\/div>"
+        },
+        {
+          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Calcola AND bit a bit tra $s2 ed $s3 e salva il risultato in $s1<\/em><\/div>\n\n<hr id=answer>\n\n<pre>and $s1, $s2, $s3<\/pre>",
+          "typeId": 1471435193999,
+          "id": 1493048279023,
+          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Calcola AND bit a bit tra $s2 ed $s3 e salva il risultato in $s1<\/em><\/div>"
+        },
+        {
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>andi $s1, $s2, 20<\/pre>\n<\/div>\n\n<hr id=answer>\n\nCalcola una AND bit a bit tra $s2 e 20 e salva il risultato in $s1",
+          "typeId": 1471435193999,
+          "id": 1493048360729,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>andi $s1, $s2, 20<\/pre>\n<\/div>"
+        },
+        {
+          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Calcola una AND bit a bit tra $s2 e 20 e salva il risultato in $s1<\/em><\/div>\n\n<hr id=answer>\n\n<pre>andi $s1, $s2, 20<\/pre>",
+          "typeId": 1471435193999,
+          "id": 1493048360730,
+          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Calcola una AND bit a bit tra $s2 e 20 e salva il risultato in $s1<\/em><\/div>"
+        },
+        {
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>sll $s1 $s2, 10<\/pre>\n<\/div>\n\n<hr id=answer>\n\nShift logico a sinistra di 10 bit del registro $s2 salvando il risultato in $s1",
+          "typeId": 1471435193999,
+          "id": 1493048423446,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>sll $s1 $s2, 10<\/pre>\n<\/div>"
+        },
+        {
+          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Shift logico a sinistra di 10 bit del registro $s2 salvando il risultato in $s1<\/em><\/div>\n\n<hr id=answer>\n\n<pre>sll $s1 $s2, 10<\/pre>",
+          "typeId": 1471435193999,
+          "id": 1493048423447,
+          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Shift logico a sinistra di 10 bit del registro $s2 salvando il risultato in $s1<\/em><\/div>"
+        },
+        {
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>beq $s1, $s2, 25<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSalta di 25*4 istruzioni in avanti se $s1 = $s2",
+          "typeId": 1471435193999,
+          "id": 1493048611993,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>beq $s1, $s2, 25<\/pre>\n<\/div>"
+        },
+        {
+          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salta di 25*4 istruzioni in avanti se $s1 = $s2<\/em><\/div>\n\n<hr id=answer>\n\n<pre>beq $s1, $s2, 25<\/pre>",
+          "typeId": 1471435193999,
+          "id": 1493048611994,
+          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salta di 25*4 istruzioni in avanti se $s1 = $s2<\/em><\/div>"
         },
         {
           "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>bne $s1, $s2, 25<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSalta di 25*4 istruzioni in avanti se $s1 != $s2",
@@ -974,124 +916,70 @@
           "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salta di 25*4 istruzioni in avanti se $s1 != $s2<\/em><\/div>"
         },
         {
-          "rear": "Nelle architetture MIPS, a cosa serve il registro $sp?\n<hr id=answer>\nPunta alla testa dello stack.",
-          "typeId": 1471435194000,
-          "id": 1493070655209,
-          "front": "Nelle architetture MIPS, a cosa serve il registro $sp?"
-        },
-        {
-          "rear": "Nell'architettura Intel, per cosa viene solitamente utilizzato il registro rsp?\n<hr id=answer>\nPer memorizzare lo Stack Pointer",
-          "typeId": 1471435194000,
-          "id": 1493077621253,
-          "front": "Nell'architettura Intel, per cosa viene solitamente utilizzato il registro rsp?"
-        },
-        {
-          "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Sposta il contenuto del registro %esp nel registro %eax<\/em><\/div>\n\n<hr id=answer>\n\n<pre>mov %esp, %eax<\/pre>",
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>slt $s1,$s2,$s3<\/pre>\n<\/div>\n\n<hr id=answer>\n\nPoni&nbsp;$s1 = 1 se $s2 < $s3,&nbsp;altrimenti poni $s1 = 0",
           "typeId": 1471435193999,
-          "id": 1493148326621,
-          "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Sposta il contenuto del registro %esp nel registro %eax<\/em><\/div>"
+          "id": 1493048785164,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>slt $s1,$s2,$s3<\/pre>\n<\/div>"
         },
         {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>movb %rax, %rbx<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSposta un byte dal registro %rax nel registro %rbx",
+          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Poni&nbsp;$s1 = 1 se $s2 < $s3,&nbsp;altrimenti poni $s1 = 0<\/em><\/div>\n\n<hr id=answer>\n\n<pre>slt $s1,$s2,$s3<\/pre>",
           "typeId": 1471435193999,
-          "id": 1493150692686,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>movb %rax, %rbx<\/pre>\n<\/div>"
+          "id": 1493048785165,
+          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Poni&nbsp;$s1 = 1 se $s2 < $s3,&nbsp;altrimenti poni $s1 = 0<\/em><\/div>"
         },
         {
-          "rear": "A cosa corrisponde solitamente la dimensione di un word?\n<hr id=answer>\nÈ quella di un registro",
-          "typeId": 1471435194000,
-          "id": 1493042428959,
-          "front": "A cosa corrisponde solitamente la dimensione di un word?"
-        },
-        {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>lw $t0, 4($3)<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSalva in&nbsp;$t0 una parola all'indirizzo $3 spaziato di 4 byte",
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>slti $s1, $s2, 20<\/pre>\n<\/div>\n\n<hr id=answer>\n\nPoni $s1 = 1 se $s2 &lt; 20, altrimenti poni $s1 = 0",
           "typeId": 1471435193999,
-          "id": 1493043121993,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>lw $t0, 4($3)<\/pre>\n<\/div>"
+          "id": 1493049607299,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>slti $s1, $s2, 20<\/pre>\n<\/div>"
         },
         {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>lhu $s1, 20($s2)<\/pre>\n<\/div>\n\n<hr id=answer>\n\nTrasferisce mezza parola da $s2 ofsettata di 20 nel registro $s1 senza tenere conto del segno.",
+          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Poni $s1 = 1 se $s2 &lt; 20, altrimenti poni $s1 = 0<\/em><\/div>\n\n<hr id=answer>\n\n<pre>slti $s1, $s2, 20<\/pre>",
           "typeId": 1471435193999,
-          "id": 1493048015473,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>lhu $s1, 20($s2)<\/pre>\n<\/div>"
+          "id": 1493049607300,
+          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Poni $s1 = 1 se $s2 &lt; 20, altrimenti poni $s1 = 0<\/em><\/div>"
         },
         {
-          "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Shifta a sinistra il contenuto di %eax senza tenere conto del segno<\/em><\/div>\n\n<hr id=answer>\n\n<pre>shl 8, %eax&nbsp;<\/pre>",
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>sltiu $s1,$s2,20<\/pre>\n<\/div>\n\n<hr id=answer>\n\nPoni $s1 = 1 se $s2 &lt; 20 confrontando senza segno, altrimenti $s1 = 0",
           "typeId": 1471435193999,
-          "id": 1493149437234,
-          "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Shifta a sinistra il contenuto di %eax senza tenere conto del segno<\/em><\/div>"
+          "id": 1493049790938,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>sltiu $s1,$s2,20<\/pre>\n<\/div>"
         },
         {
-          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Somma 4 ad $s3<\/em><\/div>\n\n<hr id=answer>\n\n<pre>addi $s3, $s3, 4<\/pre>",
+          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Poni $s1 = 1 se $s2 &lt; 20 confrontando senza segno, altrimenti $s1 = 0<\/em><\/div>\n\n<hr id=answer>\n\n<pre>sltiu $s1,$s2,20<\/pre>",
           "typeId": 1471435193999,
-          "id": 1493043486848,
-          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Somma 4 ad $s3<\/em><\/div>"
+          "id": 1493049790939,
+          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Poni $s1 = 1 se $s2 &lt; 20 confrontando senza segno, altrimenti $s1 = 0<\/em><\/div>"
         },
         {
-          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Calcola AND bit a bit tra $s2 ed $s3 e salva il risultato in $s1<\/em><\/div>\n\n<hr id=answer>\n\n<pre>and $s1, $s2, $s3<\/pre>",
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>j 2500<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSalta all'indirizzo 2500",
           "typeId": 1471435193999,
-          "id": 1493048279023,
-          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Calcola AND bit a bit tra $s2 ed $s3 e salva il risultato in $s1<\/em><\/div>"
+          "id": 1493049838496,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>j 2500<\/pre>\n<\/div>"
         },
         {
-          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Calcola una AND bit a bit tra $s2 e 20 e salva il risultato in $s1<\/em><\/div>\n\n<hr id=answer>\n\n<pre>andi $s1, $s2, 20<\/pre>",
+          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salta all'indirizzo 2500<\/em><\/div>\n\n<hr id=answer>\n\n<pre>j 2500<\/pre>",
           "typeId": 1471435193999,
-          "id": 1493048360730,
-          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Calcola una AND bit a bit tra $s2 e 20 e salva il risultato in $s1<\/em><\/div>"
+          "id": 1493049838497,
+          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salta all'indirizzo 2500<\/em><\/div>"
         },
         {
-          "rear": "Che cosa memorizza nelle architetture MIPS il registro $gp\n<hr id=answer>\nGP: Global Pointer. Area dei registri che memorizza le variabile statche.",
-          "typeId": 1471435194000,
-          "id": 1493071833176,
-          "front": "Che cosa memorizza nelle architetture MIPS il registro $gp"
-        },
-        {
-          "rear": "Nelle architetture MIPS a cosa serve il registro $fp?\n<hr id=answer>\nFrame Pointer; alla chiamata di una subroutine viene solitamente fatto puntare allo stack pointer. Questo evita che al variare dello stack diventi poi difficile capire dove sono memorizzate le variabili.",
-          "typeId": 1471435194000,
-          "id": 1493072773254,
-          "front": "Nelle architetture MIPS a cosa serve il registro $fp?"
-        },
-        {
-          "rear": "Quanti registri possiede un'architettura MIPS?\n<hr id=answer>\n32",
-          "typeId": 1471435194000,
-          "id": 1493077828758,
-          "front": "Quanti registri possiede un'architettura MIPS?"
-        },
-        {
-          "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Carica il contenuto dello stack e lo salva in %ebp<\/em><\/div>\n\n<hr id=answer>\n\n<pre>pop %ebp<\/pre>",
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>jr $ra<\/pre>\n<\/div>\n\n<hr id=answer>\n\nVai all'indirizzo contenuto in un registro, ad esempio $ra",
           "typeId": 1471435193999,
-          "id": 1493148526514,
-          "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Carica il contenuto dello stack e lo salva in %ebp<\/em><\/div>"
-        },
-        {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>inc %rbx<\/pre>\n<\/div>\n\n<hr id=answer>\n\nIncrementa il registro %rbx di 1",
-          "typeId": 1471435193999,
-          "id": 1493148669382,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>inc %rbx<\/pre>\n<\/div>"
-        },
-        {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>sub %eax, %ebx<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSottrae %eax al valore memorizzato in %ebx&nbsp;",
-          "typeId": 1471435193999,
-          "id": 1493148751874,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>sub %eax, %ebx<\/pre>\n<\/div>"
-        },
-        {
-          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salva in&nbsp;$t0 una parola all'indirizzo $3 spaziato di 4 byte<\/em><\/div>\n\n<hr id=answer>\n\n<pre>lw $t0, 4($3)<\/pre>",
-          "typeId": 1471435193999,
-          "id": 1493043121994,
-          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salva in&nbsp;$t0 una parola all'indirizzo $3 spaziato di 4 byte<\/em><\/div>"
-        },
-        {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>and $s1, $s2, $s3<\/pre>\n<\/div>\n\n<hr id=answer>\n\nCalcola AND bit a bit tra $s2 ed $s3 e salva il risultato in $s1",
-          "typeId": 1471435193999,
-          "id": 1493048279022,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>and $s1, $s2, $s3<\/pre>\n<\/div>"
+          "id": 1493049873850,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>jr $ra<\/pre>\n<\/div>"
         },
         {
           "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Vai all'indirizzo contenuto in un registro, ad esempio $ra<\/em><\/div>\n\n<hr id=answer>\n\n<pre>jr $ra<\/pre>",
           "typeId": 1471435193999,
           "id": 1493049873851,
           "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Vai all'indirizzo contenuto in un registro, ad esempio $ra<\/em><\/div>"
+        },
+        {
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>sra $t1, $t2, 5<\/pre>\n<\/div>\n\n<hr id=answer>\n\nShift a destra di 5 del contenuto di $t2 tenendo conto del segno, salvando il risultato $t1",
+          "typeId": 1471435193999,
+          "id": 1493050556072,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>sra $t1, $t2, 5<\/pre>\n<\/div>"
         },
         {
           "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Shift a destra di 5 del contenuto di $t2 tenendo conto del segno, salvando il risultato $t1<\/em><\/div>\n\n<hr id=answer>\n\n<pre>sra $t1, $t2, 5<\/pre>",
@@ -1106,34 +994,256 @@
           "front": "Come si simula il not nelle architetture MIPS?"
         },
         {
-          "rear": "Nell'assembly MIPS, come si indica che un operando è un registro?\n<hr id=answer>\nLo si fa precedere da $.",
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>jal 200<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSalta all'indirizzo 200 e memorizza in $ra l'indirizzo di ritorno",
+          "typeId": 1471435193999,
+          "id": 1493054986211,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>jal 200<\/pre>\n<\/div>"
+        },
+        {
+          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salta all'indirizzo 200 e memorizza in $ra l'indirizzo di ritorno<\/em><\/div>\n\n<hr id=answer>\n\n<pre>jal 200<\/pre>",
+          "typeId": 1471435193999,
+          "id": 1493054986212,
+          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salta all'indirizzo 200 e memorizza in $ra l'indirizzo di ritorno<\/em><\/div>"
+        },
+        {
+          "rear": "Nelle architetture MIPS, a cosa serve il registro $sp?\n<hr id=answer>\nPunta alla testa dello stack.",
           "typeId": 1471435194000,
-          "id": 1493042035320,
-          "front": "Nell'assembly MIPS, come si indica che un operando è un registro?"
+          "id": 1493070655209,
+          "front": "Nelle architetture MIPS, a cosa serve il registro $sp?"
         },
         {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>addi $s3, $s3, 4<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSomma 4 ad $s3",
-          "typeId": 1471435193999,
-          "id": 1493043486847,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>addi $s3, $s3, 4<\/pre>\n<\/div>"
+          "rear": "Nell'arhitettura MIPS, generalmente a cosa serve il registro $ra?\n<hr id=answer>\nA memorizzare l'indirizzo di torno in cui tornare da una chiamata a subroutine.",
+          "typeId": 1471435194000,
+          "id": 1493071254064,
+          "front": "Nell'arhitettura MIPS, generalmente a cosa serve il registro $ra?"
         },
         {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>lh $s1, 20($s2)<\/pre>\n<\/div>\n\n<hr id=answer>\n\nLegge mezza parola da $s2 ofsettata di 20 e la salva in $s1",
-          "typeId": 1471435193999,
-          "id": 1493047755098,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>lh $s1, 20($s2)<\/pre>\n<\/div>"
+          "rear": "Che cosa memorizza nelle architetture MIPS il registro $gp\n<hr id=answer>\nGP: Global Pointer. Area dei registri che memorizza le variabile statche.",
+          "typeId": 1471435194000,
+          "id": 1493071833176,
+          "front": "Che cosa memorizza nelle architetture MIPS il registro $gp"
         },
         {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>jr $ra<\/pre>\n<\/div>\n\n<hr id=answer>\n\nVai all'indirizzo contenuto in un registro, ad esempio $ra",
-          "typeId": 1471435193999,
-          "id": 1493049873850,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>jr $ra<\/pre>\n<\/div>"
+          "rear": "Che cos'è uno stack frame (o record di attivazione)?\n<hr id=answer>\nInsieme di registri e variabili salvate nello stack relativamente ad una funzione.",
+          "typeId": 1471435194000,
+          "id": 1493072277710,
+          "front": "Che cos'è uno stack frame (o record di attivazione)?"
+        },
+        {
+          "rear": "Nelle architetture MIPS a cosa serve il registro $fp?\n<hr id=answer>\nFrame Pointer; alla chiamata di una subroutine viene solitamente fatto puntare allo stack pointer. Questo evita che al variare dello stack diventi poi difficile capire dove sono memorizzate le variabili.",
+          "typeId": 1471435194000,
+          "id": 1493072773254,
+          "front": "Nelle architetture MIPS a cosa serve il registro $fp?"
+        },
+        {
+          "rear": "Nelle architetture MIPS, di solito per cosa vengono utilizzati i registri $v0 e $v1?\n<hr id=answer>\nValori di ritorno delle subroutine",
+          "typeId": 1471435194000,
+          "id": 1493075731515,
+          "front": "Nelle architetture MIPS, di solito per cosa vengono utilizzati i registri $v0 e $v1?"
+        },
+        {
+          "rear": "Nelle architetture MIPS, di solito per cosa vengono utilizzati i registri $a0-$a4?\n<hr id=answer>\nParametri in ingresso delle subroutine",
+          "typeId": 1471435194000,
+          "id": 1493075749537,
+          "front": "Nelle architetture MIPS, di solito per cosa vengono utilizzati i registri $a0-$a4?"
+        },
+        {
+          "rear": "Nell'architettura Intel, per cosa viene solitamente utilizzato il registro rsp?\n<hr id=answer>\nPer memorizzare lo Stack Pointer",
+          "typeId": 1471435194000,
+          "id": 1493077621253,
+          "front": "Nell'architettura Intel, per cosa viene solitamente utilizzato il registro rsp?"
+        },
+        {
+          "rear": "Nell'architettura Intel, per cosa viene solitamente utilizzato il registro rbp?\n<hr id=answer>\nMemorizza il base pointer (puntatore allo stack frame)",
+          "typeId": 1471435194000,
+          "id": 1493077806528,
+          "front": "Nell'architettura Intel, per cosa viene solitamente utilizzato il registro rbp?"
+        },
+        {
+          "rear": "Quanti registri possiede un'architettura MIPS?\n<hr id=answer>\n32",
+          "typeId": 1471435194000,
+          "id": 1493077828758,
+          "front": "Quanti registri possiede un'architettura MIPS?"
+        },
+        {
+          "rear": "Quanti registri general purpose possiede l'architettura Intel?\n<hr id=answer>\n16",
+          "typeId": 1471435194000,
+          "id": 1493113773594,
+          "front": "Quanti registri general purpose possiede l'architettura Intel?"
+        },
+        {
+          "rear": "Qual è la dimensione dei registri nell'architettura Intel?\n<hr id=answer>\n64 bit",
+          "typeId": 1471435194000,
+          "id": 1493113834685,
+          "front": "Qual è la dimensione dei registri nell'architettura Intel?"
+        },
+        {
+          "rear": "Nell'architettura Intel, in che modo il registro rax viene esteso?\n<hr id=answer>\nrax 64 bit &gt; eax 32 bit &gt; ax 16 bit composto da ah + al",
+          "typeId": 1471435194000,
+          "id": 1493114619666,
+          "front": "Nell'architettura Intel, in che modo il registro rax viene esteso?"
+        },
+        {
+          "rear": "Nell'architettura Intel a cosa serve il registro rip?\n<hr id=answer>\nIntruction pointer, memorizza la prossima istruzione da eseguire",
+          "typeId": 1471435194000,
+          "id": 1493114725799,
+          "front": "Nell'architettura Intel a cosa serve il registro rip?"
+        },
+        {
+          "rear": "Nell'architettura Intel, normalmente quali registri vengono utilizzati per i valori di ritorno?\n<hr id=answer>\n%rax e %rdx",
+          "typeId": 1471435194000,
+          "id": 1493114937521,
+          "front": "Nell'architettura Intel, normalmente quali registri vengono utilizzati per i valori di ritorno?"
+        },
+        {
+          "rear": "Nell'architettura Intel come funziona l'accesso indiretto alle locazioni di memoria?\n<hr id=answer>\n[&lt;displ&gt;](&lt;base reg&gt;[,&lt;index reg&gt;[, &lt;scale&gt;]])<div>&lt;displ&gt;: Spiazzamento<\/div><div>&lt;base reg&gt;: il registro con l'indirizzo di base<\/div><div>&lt;index reg&gt;: registro contenente l'indice (per iterazioni)<\/div><div>&lt;scale&gt;: dev'essere 1,2,4, o 8; moltiplica &lt;index reg&gt;<\/div>",
+          "typeId": 1471435194000,
+          "id": 1493116112084,
+          "front": "Nell'architettura Intel come funziona l'accesso indiretto alle locazioni di memoria?"
         },
         {
           "rear": "Nelle architetture Intel in che modo si devono prefissare le costanti?\n<hr id=answer>\nCon un $",
           "typeId": 1471435194000,
           "id": 1493116689845,
           "front": "Nelle architetture Intel in che modo si devono prefissare le costanti?"
+        },
+        {
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>mov %esp, %eax<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSposta il contenuto del registro %esp nel registro %eax",
+          "typeId": 1471435193999,
+          "id": 1493148326620,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>mov %esp, %eax<\/pre>\n<\/div>"
+        },
+        {
+          "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Sposta il contenuto del registro %esp nel registro %eax<\/em><\/div>\n\n<hr id=answer>\n\n<pre>mov %esp, %eax<\/pre>",
+          "typeId": 1471435193999,
+          "id": 1493148326621,
+          "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Sposta il contenuto del registro %esp nel registro %eax<\/em><\/div>"
+        },
+        {
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>push %ebp<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSalva il contenuto di %ebp nello stack ed incrementa lo stack pointer",
+          "typeId": 1471435193999,
+          "id": 1493148455216,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>push %ebp<\/pre>\n<\/div>"
+        },
+        {
+          "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salva il contenuto di %ebp nello stack ed incrementa lo stack pointer<\/em><\/div>\n\n<hr id=answer>\n\n<pre>push %ebp<\/pre>",
+          "typeId": 1471435193999,
+          "id": 1493148455217,
+          "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salva il contenuto di %ebp nello stack ed incrementa lo stack pointer<\/em><\/div>"
+        },
+        {
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>pop %ebp<\/pre>\n<\/div>\n\n<hr id=answer>\n\nCarica il contenuto dello stack e lo salva in %ebp",
+          "typeId": 1471435193999,
+          "id": 1493148526513,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>pop %ebp<\/pre>\n<\/div>"
+        },
+        {
+          "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Carica il contenuto dello stack e lo salva in %ebp<\/em><\/div>\n\n<hr id=answer>\n\n<pre>pop %ebp<\/pre>",
+          "typeId": 1471435193999,
+          "id": 1493148526514,
+          "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Carica il contenuto dello stack e lo salva in %ebp<\/em><\/div>"
+        },
+        {
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>add %rax, %rbx<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSomma %rax a %rbx e salva il risultato in %rbx",
+          "typeId": 1471435193999,
+          "id": 1493148619341,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>add %rax, %rbx<\/pre>\n<\/div>"
+        },
+        {
+          "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Somma %rax a %rbx e salva il risultato in %rbx<\/em><\/div>\n\n<hr id=answer>\n\n<pre>add %rax, %rbx<\/pre>",
+          "typeId": 1471435193999,
+          "id": 1493148619342,
+          "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Somma %rax a %rbx e salva il risultato in %rbx<\/em><\/div>"
+        },
+        {
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>add $5, %rbx<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSomma 5 a %rbx e salva il risultato in %rbx",
+          "typeId": 1471435193999,
+          "id": 1493148644875,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>add $5, %rbx<\/pre>\n<\/div>"
+        },
+        {
+          "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Somma 5 a %rbx e salva il risultato in %rbx<\/em><\/div>\n\n<hr id=answer>\n\n<pre>add $5, %rbx<\/pre>",
+          "typeId": 1471435193999,
+          "id": 1493148644876,
+          "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Somma 5 a %rbx e salva il risultato in %rbx<\/em><\/div>"
+        },
+        {
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>inc %rbx<\/pre>\n<\/div>\n\n<hr id=answer>\n\nIncrementa il registro %rbx di 1",
+          "typeId": 1471435193999,
+          "id": 1493148669382,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>inc %rbx<\/pre>\n<\/div>"
+        },
+        {
+          "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Incrementa il registro %rbx di 1<\/em><\/div>\n\n<hr id=answer>\n\n<pre>inc %rbx<\/pre>",
+          "typeId": 1471435193999,
+          "id": 1493148669383,
+          "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Incrementa il registro %rbx di 1<\/em><\/div>"
+        },
+        {
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>sub %eax, %ebx<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSottrae %eax al valore memorizzato in %ebx&nbsp;",
+          "typeId": 1471435193999,
+          "id": 1493148751874,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>sub %eax, %ebx<\/pre>\n<\/div>"
+        },
+        {
+          "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Sottrae %eax al valore memorizzato in %ebx&nbsp;<\/em><\/div>\n\n<hr id=answer>\n\n<pre>sub %eax, %ebx<\/pre>",
+          "typeId": 1471435193999,
+          "id": 1493148751875,
+          "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Sottrae %eax al valore memorizzato in %ebx&nbsp;<\/em><\/div>"
+        },
+        {
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>mul $rax, $rbx<\/pre>\n<\/div>\n\n<hr id=answer>\n\nMoltiplica il contenuto di $rbx per $rax",
+          "typeId": 1471435193999,
+          "id": 1493148883095,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>mul $rax, $rbx<\/pre>\n<\/div>"
+        },
+        {
+          "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Moltiplica il contenuto di $rbx per $rax<\/em><\/div>\n\n<hr id=answer>\n\n<pre>mul $rax, $rbx<\/pre>",
+          "typeId": 1471435193999,
+          "id": 1493148883096,
+          "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Moltiplica il contenuto di $rbx per $rax<\/em><\/div>"
+        },
+        {
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>xor %eax, %ebx<\/pre>\n<\/div>\n\n<hr id=answer>\n\nEsegue la XOR logica tra %eax e %ebx e salva il risultato in %ebx",
+          "typeId": 1471435193999,
+          "id": 1493148969742,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>xor %eax, %ebx<\/pre>\n<\/div>"
+        },
+        {
+          "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Esegue la XOR logica tra %eax e %ebx e salva il risultato in %ebx<\/em><\/div>\n\n<hr id=answer>\n\n<pre>xor %eax, %ebx<\/pre>",
+          "typeId": 1471435193999,
+          "id": 1493148969758,
+          "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Esegue la XOR logica tra %eax e %ebx e salva il risultato in %ebx<\/em><\/div>"
+        },
+        {
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>lea (%ebx,%esi,8), %edi<\/pre>\n<\/div>\n\n<hr id=answer>\n\nCalcola in %edi la posizione in memoria indicata da %ebx + %esi*8",
+          "typeId": 1471435193999,
+          "id": 1493149287118,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>lea (%ebx,%esi,8), %edi<\/pre>\n<\/div>"
+        },
+        {
+          "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Calcola in %edi la posizione in memoria indicata da %ebx + %esi*8<\/em><\/div>\n\n<hr id=answer>\n\n<pre>lea (%ebx,%esi,8), %edi<\/pre>",
+          "typeId": 1471435193999,
+          "id": 1493149287119,
+          "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Calcola in %edi la posizione in memoria indicata da %ebx + %esi*8<\/em><\/div>"
+        },
+        {
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>shl 8, %eax&nbsp;<\/pre>\n<\/div>\n\n<hr id=answer>\n\nShifta a sinistra il contenuto di %eax senza tenere conto del segno",
+          "typeId": 1471435193999,
+          "id": 1493149437233,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>shl 8, %eax&nbsp;<\/pre>\n<\/div>"
+        },
+        {
+          "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Shifta a sinistra il contenuto di %eax senza tenere conto del segno<\/em><\/div>\n\n<hr id=answer>\n\n<pre>shl 8, %eax&nbsp;<\/pre>",
+          "typeId": 1471435193999,
+          "id": 1493149437234,
+          "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Shifta a sinistra il contenuto di %eax senza tenere conto del segno<\/em><\/div>"
+        },
+        {
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>sar 8, %eax<\/pre>\n<\/div>\n\n<hr id=answer>\n\nShifta di 8 posizioni a destra il contenuto di %eax tenendo conto del segno",
+          "typeId": 1471435193999,
+          "id": 1493149484807,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>sar 8, %eax<\/pre>\n<\/div>"
         },
         {
           "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Shifta di 8 posizioni a destra il contenuto di %eax tenendo conto del segno<\/em><\/div>\n\n<hr id=answer>\n\n<pre>sar 8, %eax<\/pre>",
@@ -1148,154 +1258,10 @@
           "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>jmp 400<\/pre>\n<\/div>"
         },
         {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>sw $t0, 48($s3);<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSalva in $s3 spaziato di 48 il contenuto di $t0",
+          "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salta alla posizione di memoria 400<\/em><\/div>\n\n<hr id=answer>\n\n<pre>jmp 400<\/pre>",
           "typeId": 1471435193999,
-          "id": 1493043322599,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>sw $t0, 48($s3);<\/pre>\n<\/div>"
-        },
-        {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>andi $s1, $s2, 20<\/pre>\n<\/div>\n\n<hr id=answer>\n\nCalcola una AND bit a bit tra $s2 e 20 e salva il risultato in $s1",
-          "typeId": 1471435193999,
-          "id": 1493048360729,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>andi $s1, $s2, 20<\/pre>\n<\/div>"
-        },
-        {
-          "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Sottrae %eax al valore memorizzato in %ebx&nbsp;<\/em><\/div>\n\n<hr id=answer>\n\n<pre>sub %eax, %ebx<\/pre>",
-          "typeId": 1471435193999,
-          "id": 1493148751875,
-          "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Sottrae %eax al valore memorizzato in %ebx&nbsp;<\/em><\/div>"
-        },
-        {
-          "rear": "Che cos'è uno stack frame (o record di attivazione)?\n<hr id=answer>\nInsieme di registri e variabili salvate nello stack relativamente ad una funzione.",
-          "typeId": 1471435194000,
-          "id": 1493072277710,
-          "front": "Che cos'è uno stack frame (o record di attivazione)?"
-        },
-        {
-          "rear": "Nell'architettura Intel, normalmente quali registri vengono utilizzati per i valori di ritorno?\n<hr id=answer>\n%rax e %rdx",
-          "typeId": 1471435194000,
-          "id": 1493114937521,
-          "front": "Nell'architettura Intel, normalmente quali registri vengono utilizzati per i valori di ritorno?"
-        },
-        {
-          "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salta alla posizione 100 se il cmp precedente ha dato come risultato \"minore di o uguale\"<\/em><\/div>\n\n<hr id=answer>\n\n<pre>jle 100<\/pre>",
-          "typeId": 1471435193999,
-          "id": 1493149789278,
-          "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salta alla posizione 100 se il cmp precedente ha dato come risultato \"minore di o uguale\"<\/em><\/div>"
-        },
-        {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>$zero<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSimula un registro che contiene il valore zero.",
-          "typeId": 1471435193999,
-          "id": 1493043588602,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>$zero<\/pre>\n<\/div>"
-        },
-        {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>beq $s1, $s2, 25<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSalta di 25*4 istruzioni in avanti se $s1 = $s2",
-          "typeId": 1471435193999,
-          "id": 1493048611993,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>beq $s1, $s2, 25<\/pre>\n<\/div>"
-        },
-        {
-          "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Somma 5 a %rbx e salva il risultato in %rbx<\/em><\/div>\n\n<hr id=answer>\n\n<pre>add $5, %rbx<\/pre>",
-          "typeId": 1471435193999,
-          "id": 1493148644876,
-          "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Somma 5 a %rbx e salva il risultato in %rbx<\/em><\/div>"
-        },
-        {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>sb $s1, 20($s2)<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSalva in memoria $s2 ofsettato di 20 un byte che si trova in $s1",
-          "typeId": 1471435193999,
-          "id": 1493047907282,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>sb $s1, 20($s2)<\/pre>\n<\/div>"
-        },
-        {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>mul $rax, $rbx<\/pre>\n<\/div>\n\n<hr id=answer>\n\nMoltiplica il contenuto di $rbx per $rax",
-          "typeId": 1471435193999,
-          "id": 1493148883095,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>mul $rax, $rbx<\/pre>\n<\/div>"
-        },
-        {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>add $5, %rbx<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSomma 5 a %rbx e salva il risultato in %rbx",
-          "typeId": 1471435193999,
-          "id": 1493148644875,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>add $5, %rbx<\/pre>\n<\/div>"
-        },
-        {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>shl 8, %eax&nbsp;<\/pre>\n<\/div>\n\n<hr id=answer>\n\nShifta a sinistra il contenuto di %eax senza tenere conto del segno",
-          "typeId": 1471435193999,
-          "id": 1493149437233,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>shl 8, %eax&nbsp;<\/pre>\n<\/div>"
-        },
-        {
-          "rear": "Nell'architettura Intel a cosa serve il registro rip?\n<hr id=answer>\nIntruction pointer, memorizza la prossima istruzione da eseguire",
-          "typeId": 1471435194000,
-          "id": 1493114725799,
-          "front": "Nell'architettura Intel a cosa serve il registro rip?"
-        },
-        {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>lea (%ebx,%esi,8), %edi<\/pre>\n<\/div>\n\n<hr id=answer>\n\nCalcola in %edi la posizione in memoria indicata da %ebx + %esi*8",
-          "typeId": 1471435193999,
-          "id": 1493149287118,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>lea (%ebx,%esi,8), %edi<\/pre>\n<\/div>"
-        },
-        {
-          "rear": "Qual è la dimensione di una word in MIPS?\n<hr id=answer>\n4 byte",
-          "typeId": 1471435194000,
-          "id": 1493043227275,
-          "front": "Qual è la dimensione di una word in MIPS?"
-        },
-        {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>add %rax, %rbx<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSomma %rax a %rbx e salva il risultato in %rbx",
-          "typeId": 1471435193999,
-          "id": 1493148619341,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>add %rax, %rbx<\/pre>\n<\/div>"
-        },
-        {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>sltiu $s1,$s2,20<\/pre>\n<\/div>\n\n<hr id=answer>\n\nPoni $s1 = 1 se $s2 &lt; 20 confrontando senza segno, altrimenti $s1 = 0",
-          "typeId": 1471435193999,
-          "id": 1493049790938,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>sltiu $s1,$s2,20<\/pre>\n<\/div>"
-        },
-        {
-          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salta all'indirizzo 2500<\/em><\/div>\n\n<hr id=answer>\n\n<pre>j 2500<\/pre>",
-          "typeId": 1471435193999,
-          "id": 1493049838497,
-          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salta all'indirizzo 2500<\/em><\/div>"
-        },
-        {
-          "rear": "Quanti registri general purpose possiede l'architettura Intel?\n<hr id=answer>\n16",
-          "typeId": 1471435194000,
-          "id": 1493113773594,
-          "front": "Quanti registri general purpose possiede l'architettura Intel?"
-        },
-        {
-          "rear": "Nelle architetture Intel, è possibile fare mov da memoria a memoria?\n<hr id=answer>\nNo, è possile solo lo spostamento reg-&gt;reg, mem-&gt;reg, reg-&gt;mem",
-          "typeId": 1471435194000,
-          "id": 1493151091992,
-          "front": "Nelle architetture Intel, è possibile fare mov da memoria a memoria?"
-        },
-        {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>add dest, a, b<\/pre>\n<\/div>\n\n<hr id=answer>\n\nCalcola a + b e salva il risultato in dest",
-          "typeId": 1471435193999,
-          "id": 1493040899178,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>add dest, a, b<\/pre>\n<\/div>"
-        },
-        {
-          "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Calcola a + b e salva il risultato in dest<\/em><\/div>\n\n<hr id=answer>\n\n<pre>add dest, a, b<\/pre>",
-          "typeId": 1471435193999,
-          "id": 1493040899184,
-          "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Calcola a + b e salva il risultato in dest<\/em><\/div>"
-        },
-        {
-          "rear": "Come si specifica nell'assembler MIPS un indirizzo di memoria?\n<hr id=answer>\nMediante una base ed uno spiazzamento (offset) dalla base.<div>Per esempio: <code>4($s3)<\/code>ha la base <code>$s3<\/code> ed un offset di <code>4<\/code>.<\/div>",
-          "typeId": 1471435194000,
-          "id": 1493043056199,
-          "front": "Come si specifica nell'assembler MIPS un indirizzo di memoria?"
-        },
-        {
-          "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>jle 100<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSalta alla posizione 100 se il cmp precedente ha dato come risultato \"minore di o uguale\"",
-          "typeId": 1471435193999,
-          "id": 1493149789277,
-          "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>jle 100<\/pre>\n<\/div>"
+          "id": 1493149511663,
+          "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salta alla posizione di memoria 400<\/em><\/div>"
         },
         {
           "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>jeq 100<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSalta alla posizione 100 se il cmp precedente ha dato come risultato \"uguale\"",
@@ -1304,20 +1270,403 @@
           "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>jeq 100<\/pre>\n<\/div>"
         },
         {
+          "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salta alla posizione 100 se il cmp precedente ha dato come risultato \"uguale\"<\/em><\/div>\n\n<hr id=answer>\n\n<pre>jeq 100<\/pre>",
+          "typeId": 1471435193999,
+          "id": 1493149712460,
+          "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salta alla posizione 100 se il cmp precedente ha dato come risultato \"uguale\"<\/em><\/div>"
+        },
+        {
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>jle 100<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSalta alla posizione 100 se il cmp precedente ha dato come risultato \"minore di o uguale\"",
+          "typeId": 1471435193999,
+          "id": 1493149789277,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>jle 100<\/pre>\n<\/div>"
+        },
+        {
+          "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salta alla posizione 100 se il cmp precedente ha dato come risultato \"minore di o uguale\"<\/em><\/div>\n\n<hr id=answer>\n\n<pre>jle 100<\/pre>",
+          "typeId": 1471435193999,
+          "id": 1493149789278,
+          "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salta alla posizione 100 se il cmp precedente ha dato come risultato \"minore di o uguale\"<\/em><\/div>"
+        },
+        {
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>jg 100<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSalta alla posizione 100 se il cmp precedente ha dato come risultato \"maggiore di\"",
+          "typeId": 1471435193999,
+          "id": 1493149815825,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>jg 100<\/pre>\n<\/div>"
+        },
+        {
+          "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salta alla posizione 100 se il cmp precedente ha dato come risultato \"maggiore di\"<\/em><\/div>\n\n<hr id=answer>\n\n<pre>jg 100<\/pre>",
+          "typeId": 1471435193999,
+          "id": 1493149815826,
+          "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salta alla posizione 100 se il cmp precedente ha dato come risultato \"maggiore di\"<\/em><\/div>"
+        },
+        {
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>neg %eax<\/pre>\n<\/div>\n\n<hr id=answer>\n\nCalcola il complemento a 2 del registro %eax",
+          "typeId": 1471435193999,
+          "id": 1493149886796,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>neg %eax<\/pre>\n<\/div>"
+        },
+        {
+          "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Calcola il complemento a 2 del registro %eax<\/em><\/div>\n\n<hr id=answer>\n\n<pre>neg %eax<\/pre>",
+          "typeId": 1471435193999,
+          "id": 1493149886797,
+          "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Calcola il complemento a 2 del registro %eax<\/em><\/div>"
+        },
+        {
+          "rear": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>movb %rax, %rbx<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSposta un byte dal registro %rax nel registro %rbx",
+          "typeId": 1471435193999,
+          "id": 1493150692686,
+          "front": "<div><\/div>\n<div>Nell'architettura <strong>Intel<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>movb %rax, %rbx<\/pre>\n<\/div>"
+        },
+        {
           "rear": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Sposta un byte dal registro %rax nel registro %rbx<\/em><\/div>\n\n<hr id=answer>\n\n<pre>movb %rax, %rbx<\/pre>",
           "typeId": 1471435193999,
           "id": 1493150692687,
           "front": "<div>Quale istruzione <strong>Intel<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Sposta un byte dal registro %rax nel registro %rbx<\/em><\/div>"
         },
         {
-          "rear": "Nell'arhitettura MIPS, generalmente a cosa serve il registro $ra?\n<hr id=answer>\nA memorizzare l'indirizzo di torno in cui tornare da una chiamata a subroutine.",
+          "rear": "Nelle architetture Intel, è possibile fare mov da memoria a memoria?\n<hr id=answer>\nNo, è possile solo lo spostamento reg-&gt;reg, mem-&gt;reg, reg-&gt;mem",
           "typeId": 1471435194000,
-          "id": 1493071254064,
-          "front": "Nell'arhitettura MIPS, generalmente a cosa serve il registro $ra?"
+          "id": 1493151091992,
+          "front": "Nelle architetture Intel, è possibile fare mov da memoria a memoria?"
         }
       ],
-      "name": "Università - Calcolatori::Assembly",
-      "hasCategories": false
+      "name": "Calcolatori::Assembly",
+      "hasCategories": false,
+      "authors": "Slava"
+    },
+    {
+      "name": "Linguaggi (Abeni)",
+      "hasCategories": true,
+      "categories": [
+        {
+          "cards": [
+            {
+              "rear": "Che cos'è una macchina astratta?\n<hr id=answer>\nInsieme di algoritmi e strutture dati che permettono di memorizzare ed eseguire programmi",
+              "typeId": 1471435194000,
+              "id": 1494253782169,
+              "front": "Che cos'è una macchina astratta?"
+            },
+            {
+              "rear": "Che cosa si denota con <img class=latex src=\"anki-images/latex-46676ac769f72ccabde3bf9b0bdcd04a8db10090.png\">?\n<hr id=answer>\nUna macchina astratta che capisce ed esegue il linguaggio&nbsp;<img class=latex src=\"anki-images/latex-f58392aca325862b9672f1ad5e9b2967461d6144.png\">",
+              "typeId": 1471435194000,
+              "id": 1494254201883,
+              "front": "Che cosa si denota con <img class=latex src=\"anki-images/latex-46676ac769f72ccabde3bf9b0bdcd04a8db10090.png\">?"
+            },
+            {
+              "rear": "Che cosa si denota con&nbsp;<img class=latex src=\"anki-images/latex-f58392aca325862b9672f1ad5e9b2967461d6144.png\">?\n<hr id=answer>\nUn linguaggio macchina",
+              "typeId": 1471435194000,
+              "id": 1494254411466,
+              "front": "Che cosa si denota con&nbsp;<img class=latex src=\"anki-images/latex-f58392aca325862b9672f1ad5e9b2967461d6144.png\">?"
+            },
+            {
+              "rear": "Che cosa si denota con&nbsp;<img class=latex src=\"anki-images/latex-24de40c41753dec25acc512e3f090f396f7d0af3.png\">?\n<hr id=answer>\nUna macchina <i>ospite<\/i> che capisce il linguaggio <img class=latex src=\"anki-images/latex-32a480e97657452bbb217c94c78b96e65059d0cc.png\">&nbsp;",
+              "typeId": 1471435194000,
+              "id": 1494254563409,
+              "front": "Che cosa si denota con&nbsp;<img class=latex src=\"anki-images/latex-24de40c41753dec25acc512e3f090f396f7d0af3.png\">?"
+            },
+            {
+              "rear": "Che differenza c'è tra un interprete ed un compilatore di un linguaggio&nbsp;<img class=latex src=\"anki-images/latex-f58392aca325862b9672f1ad5e9b2967461d6144.png\">\n<hr id=answer>\nInterprete: capisce il programma <img class=latex src=\"anki-images/latex-f58392aca325862b9672f1ad5e9b2967461d6144.png\"> senza aver bisogno di trasformarlo (implementa il ciclo fetch/decode/load/execute/save).<div><br /><\/div><div>Compilatore: traduce il programma&nbsp;<img class=latex src=\"anki-images/latex-7872bac7d1b7056c255a527418bf489b5a33d9f7.png\"> in un altro linguaggio&nbsp;<img class=latex src=\"anki-images/latex-b10d30681441422819cfb9f6e5d9ba875f3ed6b5.png\"><\/div>",
+              "typeId": 1471435194000,
+              "id": 1494254723363,
+              "front": "Che differenza c'è tra un interprete ed un compilatore di un linguaggio&nbsp;<img class=latex src=\"anki-images/latex-f58392aca325862b9672f1ad5e9b2967461d6144.png\">"
+            },
+            {
+              "rear": "Quali sono vantaggi e svantaggi di una macchina astratta ad implementazione interpretativa?\n<hr id=answer>\nVantaggi:<div>\u2022 Flessibile e portabile<\/div><div>\u2022 Debugging semplificato<\/div><div><br /><\/div><div>Svantaggi:<\/div><div>\u2022 Poco efficiente<\/div>",
+              "typeId": 1471435194000,
+              "id": 1494255154445,
+              "front": "Quali sono vantaggi e svantaggi di una macchina astratta ad implementazione interpretativa?"
+            },
+            {
+              "rear": "Quali sono vantaggi e svantaggi di una macchina astratta ad implementazione compilativa?\n<hr id=answer>\nVantaggi:<div>\u2022 Implementazione efficiente<\/div><div><br /><\/div><div>Svantaggi:<\/div><div>\u2022 Non (molto) portabile<\/div><div>\u2022&nbsp;Perdita di informazione sulla struttura del programma<\/div><div>sorgente<\/div>",
+              "typeId": 1471435194000,
+              "id": 1494256958213,
+              "front": "Quali sono vantaggi e svantaggi di una macchina astratta ad implementazione compilativa?"
+            },
+            {
+              "rear": "Che cosa si intende per CPU microprogrammate?\n<hr id=answer>\nSi tratta di CPU di cui è possibile aggiornare il firmware. È presente un microinterprete di microistruzioni che esegue il ciclo fetch/decode/load/execute/save.",
+              "typeId": 1471435194000,
+              "id": 1494257954941,
+              "front": "Che cosa si intende per CPU microprogrammate?"
+            },
+            {
+              "rear": "Che cosa si indica con <img class=latex src=\"anki-images/latex-32a3413bd00f01b39769c8b884541767033ade3c.png\">?\n<hr id=answer>\nProgramma scrito in linguaggio&nbsp;<img class=latex src=\"anki-images/latex-f58392aca325862b9672f1ad5e9b2967461d6144.png\">",
+              "typeId": 1471435194000,
+              "id": 1494258079561,
+              "front": "Che cosa si indica con <img class=latex src=\"anki-images/latex-32a3413bd00f01b39769c8b884541767033ade3c.png\">?"
+            },
+            {
+              "rear": "Che cosa si intende per&nbsp;<img class=latex src=\"anki-images/latex-3f0bb1fb59bf078f2af257ed1031f38d6fcba121.png\">?\n<hr id=answer>\nInterprete&nbsp;<img class=latex src=\"anki-images/latex-88d97216e40bc695eeec638b0c8475a40eeaafe3.png\"> del linguaggio <img class=latex src=\"anki-images/latex-f58392aca325862b9672f1ad5e9b2967461d6144.png\">, scritto nel linguaggio&nbsp;<img class=latex src=\"anki-images/latex-611b52658472d0144bd13a27f063c6a0e53c6f9e.png\">&nbsp;",
+              "typeId": 1471435194000,
+              "id": 1494259318641,
+              "front": "Che cosa si intende per&nbsp;<img class=latex src=\"anki-images/latex-3f0bb1fb59bf078f2af257ed1031f38d6fcba121.png\">?"
+            },
+            {
+              "rear": "Che cosa si intende per&nbsp;<img class=latex src=\"anki-images/latex-d4b0bb80fa419110f12fae27dfe549be6e48d326.png\">?\n<hr id=answer>\nCompilatore <img class=latex src=\"anki-images/latex-42ecbfb5e7dd547c1e0ca2eeb4669f2cc7f1ae4e.png\"> da linguaggio <img class=latex src=\"anki-images/latex-f58392aca325862b9672f1ad5e9b2967461d6144.png\"> a linguaggio&nbsp;<img class=latex src=\"anki-images/latex-32a480e97657452bbb217c94c78b96e65059d0cc.png\"> scritto in linguaggio&nbsp;<img class=latex src=\"anki-images/latex-09c2cc5f22b7fcfb83b328ea7ffb8f18dd73c666.png\">",
+              "typeId": 1471435194000,
+              "id": 1494259441416,
+              "front": "Che cosa si intende per&nbsp;<img class=latex src=\"anki-images/latex-d4b0bb80fa419110f12fae27dfe549be6e48d326.png\">?"
+            }
+          ],
+          "categoryName": "Capitolo-1"
+        },
+        {
+          "cards": [
+            {
+              "rear": "Che cosa si intende per <i>identificatore<\/i>?\n<hr id=answer>\nUna sequenza di caratteri usata per denotare qualcosa",
+              "typeId": 1471435194000,
+              "id": 1494260948368,
+              "front": "Che cosa si intende per <i>identificatore<\/i>?"
+            },
+            {
+              "rear": "Quando un oggetto si dice <i>denotabile<\/i>?\n<hr id=answer>\nQuando gli può essere associato un nome",
+              "typeId": 1471435194000,
+              "id": 1494260974656,
+              "front": "Quando un oggetto si dice <i>denotabile<\/i>?"
+            },
+            {
+              "rear": "Che cosa si intende per <i>binding<\/i>?\n<hr id=answer>\nUn'associazione tra nome e un oggetto",
+              "typeId": 1471435194000,
+              "id": 1494261232321,
+              "front": "Che cosa si intende per <i>binding<\/i>?"
+            },
+            {
+              "rear": "Che cosa si intende per <i>ambiente<\/i>?\n<hr id=answer>\nInsieme di associazioni fra nomi ed oggeti denotabili esistenti ad uno specifico punto dell'esecuzione del programma.",
+              "typeId": 1471435194000,
+              "id": 1494261397529,
+              "front": "Che cosa si intende per <i>ambiente<\/i>?"
+            },
+            {
+              "rear": "Che cos'è una <i>dichiarazione<\/i>?\n<hr id=answer>\nUn meccanismo con il quale si crea un'associazione in ambiente<div><img src=\"anki-images/paste-177459458736129.jpg\" /><\/div>",
+              "typeId": 1471435194000,
+              "id": 1494261435735,
+              "front": "Che cos'è una <i>dichiarazione<\/i>?"
+            },
+            {
+              "rear": "Che cosa si intnde per <i>aliasing?<\/i>\n<hr id=answer>\nUna situazione in cui diversi nomi denotano lo stesso oggetto (passaggio per riferimento, puntatori, ecc...)",
+              "typeId": 1471435194000,
+              "id": 1494261603659,
+              "front": "Che cosa si intnde per <i>aliasing?<\/i>"
+            },
+            {
+              "rear": "Che cosa si intende per <i>blocco<\/i>?\n<hr id=answer>\nUna regione testuale di un programma, avente un inizio e fine, che può contenere dichiarazioni locali alla regione.",
+              "typeId": 1471435194000,
+              "id": 1494261655510,
+              "front": "Che cosa si intende per <i>blocco<\/i>?"
+            },
+            {
+              "rear": "Che cosa si intende per <i>ambiente locale/non locale/globale<\/i>?\n<hr id=answer>\nLocale: insieme delle associazioni creati nel blocco (inclusi i parametri)<div>Non Locale: associazioni ereditate da altri blocchi<\/div><div>Globale: associazioni comuni a tutti i blocchi<\/div>",
+              "typeId": 1471435194000,
+              "id": 1494261790857,
+              "front": "Che cosa si intende per <i>ambiente locale/non locale/globale<\/i>?"
+            },
+            {
+              "rear": "Quando un'associazione nome-oggetto denotato viene <i>disattivata<\/i>?\n<hr id=answer>\nQuando si entra in un blocco che ha una dichiarazione che maschera quell'associazione",
+              "typeId": 1471435194000,
+              "id": 1494261891608,
+              "front": "Quando un'associazione nome-oggetto denotato viene <i>disattivata<\/i>?"
+            },
+            {
+              "rear": "In che situazione un'associazione locale nome-oggetto denotato viene distrutta?\n<hr id=answer>\nQuando si esce da un blocco con dichiarazione locale.",
+              "typeId": 1471435194000,
+              "id": 1494261977425,
+              "front": "In che situazione un'associazione locale nome-oggetto denotato viene distrutta?"
+            },
+            {
+              "rear": "In quale situazione il tempo di vita di un legame può essere più corto di quello dell'oggetto?\n<hr id=answer>\nPer esempio in caso di passaggio per riferimento di un oggetto ad una funzione",
+              "typeId": 1471435194000,
+              "id": 1494262329267,
+              "front": "In quale situazione il tempo di vita di un legame può essere più corto di quello dell'oggetto?"
+            },
+            {
+              "rear": "In quale situazione il tempo di vita di un oggetto può essere più corto del suo legame?\n<hr id=answer>\nQuando viene allocata dell'area di memoria denotata da un nome ed in seguito l'area viene liberata senza aver eliminato il nome.<div><br /><div><div><img src=\"anki-images/paste-179508158136321.jpg\" /><\/div><\/div><\/div>",
+              "typeId": 1471435194000,
+              "id": 1494262488278,
+              "front": "In quale situazione il tempo di vita di un oggetto può essere più corto del suo legame?"
+            },
+            {
+              "rear": "Come funziona lo scope statico nella risoluzione dei nomi non locali?\n<hr id=answer>\nSe un nome non locale non esiste nel blocco, il nome viene cercato nel blocco che lo racchiude.",
+              "typeId": 1471435194000,
+              "id": 1494262870065,
+              "front": "Come funziona lo scope statico nella risoluzione dei nomi non locali?"
+            },
+            {
+              "rear": "Come funziona lo scope dinamico nella risoluzione dei nomi non locali?\n<hr id=answer>\nUn nome non locale viene cercato nel blocco attivato più di recente.",
+              "typeId": 1471435194000,
+              "id": 1494263199046,
+              "front": "Come funziona lo scope dinamico nella risoluzione dei nomi non locali?"
+            },
+            {
+              "rear": "Quali sono i vantaggi e svantaggi dello scope statico?\n<hr id=answer>\n<div>Vantaggi:<\/div>\u2022 Più efficiente<div>\u2022 Le associazioni sono note a tempo di compilazione<\/div><div><br /><\/div><div>Svantaggi<\/div><div>\u2022 Più complesso da implementare<\/div>",
+              "typeId": 1471435194000,
+              "id": 1494265584786,
+              "front": "Quali sono i vantaggi e svantaggi dello scope statico?"
+            },
+            {
+              "rear": "Quali sono i vantaggi e svantaggi dello scope dinamico?\n<hr id=answer>\nVantaggi:<div>\u2022 Più semplice da implementare<\/div><div><br /><\/div><div>Svantaggi:<\/div><div>\u2022 Meno leggibile<\/div><div>\u2022 Meno efficiente<\/div>",
+              "typeId": 1471435194000,
+              "id": 1494265650921,
+              "front": "Quali sono i vantaggi e svantaggi dello scope dinamico?"
+            }
+          ],
+          "categoryName": "Capitolo-6"
+        },
+        {
+          "cards": [
+            {
+              "rear": "Quali sono i 3 tipi di allocazione della memoria?\n<hr id=answer>\n<ul style=\"margin-left: 20px; \"><li>Statica<\/li><li>Dinamica (mediante stack)<\/li><li>Dinamica (mediante heap)<\/li><\/ul>",
+              "typeId": 1471435194000,
+              "id": 1494581085148,
+              "front": "Quali sono i 3 tipi di allocazione della memoria?"
+            },
+            {
+              "rear": "Com'è gestita la memoria di un oggetto&nbsp;<i>allocato staticamente<\/i>?\n<hr id=answer>\nL'oggetto mantiene uno stesso indirizzo di memoria per tutta l'esecuzione del programma",
+              "typeId": 1471435194000,
+              "id": 1494581230129,
+              "front": "Com'è gestita la memoria di un oggetto&nbsp;<i>allocato staticamente<\/i>?"
+            },
+            {
+              "rear": "In quali situazioni un oggetto viene allocato dinamicamente?\n<hr id=answer>\n<ul style=\"margin-left: 20px; \"><li>Variabili globali<\/li><li>Variabili locali dei sottoprogrammi<\/li><li>Costanti<\/li><\/ul>",
+              "typeId": 1471435194000,
+              "id": 1494581374020,
+              "front": "In quali situazioni un oggetto viene allocato dinamicamente?"
+            },
+            {
+              "rear": "Che cos'è un record di attivazione (RDA o stack frame)?\n<hr id=answer>\nMemorizza nello stack tutte le informazioni relative all'istanza di un sottoprogramma.",
+              "typeId": 1471435194000,
+              "id": 1494581885955,
+              "front": "Che cos'è un record di attivazione (RDA o stack frame)?"
+            },
+            {
+              "rear": "Per quale motivo in un linguaggio che implementa solamente l'allocazione statica non è possibile la ricorsione?\n<hr id=answer>\nIn un linguaggio a sola allocazione statica la memoria dedicata alle variabili viene assegnata prima dell'esecuzione. Questo fa sì che tutta la memoria dedicata ai sottoprogrammi sia &nbsp;definita già prima dell'esecuzione. Nel caso della ricorsione, non è possibile definire prima dell'esecuzione quanta memoria sarà necessaria in quanto questo dato è disponibile solo al runtime.",
+              "typeId": 1471435194000,
+              "id": 1494582911946,
+              "front": "Per quale motivo in un linguaggio che implementa solamente l'allocazione statica non è possibile la ricorsione?"
+            },
+            {
+              "rear": "Per quale motivo l'utilizzo di uno stack potrebbe essere più vantaggioso rispetto all'allocazione statica?\n<hr id=answer>\nL'allocazione statica alloca sempre tutta la memoria che potrebbe essere necessaria, per cui potrebbe essere allocata memoria anche per le proedure che potrebbero non essere mai richiamate. Nel caso di utilizzo di uno stack si alloca invece solo ciò che è necessario.",
+              "typeId": 1471435194000,
+              "id": 1494952567956,
+              "front": "Per quale motivo l'utilizzo di uno stack potrebbe essere più vantaggioso rispetto all'allocazione statica?"
+            },
+            {
+              "rear": "In caso di linguaggio che implementa lo stack per la gestione della memoria, i risultati intermedi di un'espressione vengono sempre memorizzati nello stack?\n<hr id=answer>\nDipende dall'espressione e dal compilatore",
+              "typeId": 1471435194000,
+              "id": 1494952661362,
+              "front": "In caso di linguaggio che implementa lo stack per la gestione della memoria, i risultati intermedi di un'espressione vengono sempre memorizzati nello stack?"
+            },
+            {
+              "rear": "Che tipo di informazioni sono memorizzati in uno stack frame nel caso di blocchi anonimi?\n<hr id=answer>\n<ul style=\"margin-left: 20px; \"><li>Puntatore di catena dinamica<\/li><li>Variabili locali<\/li><li>Risultati intermedi delle espressioni<\/li><\/ul>",
+              "typeId": 1471435194000,
+              "id": 1494952818463,
+              "front": "Che tipo di informazioni sono memorizzati in uno stack frame nel caso di blocchi anonimi?"
+            },
+            {
+              "rear": "In uno stack frame, a cosa serve il&nbsp;<i>puntatore di catena dinamica<\/i>?\n<hr id=answer>\nÈ un puntatore al record di attivazione precedente; dal momento che i record di attivazione hanno tutti una dimensione diversa, bisogna tenere traccia di dove inizia lo stack frame precedente, in modo da poterlo ripristinare in seguito.",
+              "typeId": 1471435194000,
+              "id": 1494953034873,
+              "front": "In uno stack frame, a cosa serve il&nbsp;<i>puntatore di catena dinamica<\/i>?"
+            },
+            {
+              "rear": "Che tipo di informazioni sono memorizzati in uno stack frame nel caso delle procedure (o funzioni)?\n<hr id=answer>\n<ul style=\"margin-left: 20px; \"><li>Risultati intermedi<\/li><li>Variabili locali<\/li><li>Puntatore di catena dinamica<\/li><li>Puntatore di catena statica (se implementa scope statico)<\/li><li>Indirizzo di ritorno<\/li><li>Indirizzo del risultato<\/li><li>Parametri<\/li><\/ul>",
+              "typeId": 1471435194000,
+              "id": 1494953452607,
+              "front": "Che tipo di informazioni sono memorizzati in uno stack frame nel caso delle procedure (o funzioni)?"
+            },
+            {
+              "rear": "Qual è la sequenza di operazioni che avvengono per realizzare una chiamata ad una procedura?\n<hr id=answer>\n<ol type=\"1\" start=\"1\"><li>Modifica del program counter<\/li><li>Allocazione dello spazio sulla pila<\/li><li>Modifica del puntatore del record di attivazione<\/li><li>Passagio dei parametri<\/li><li>Salvataggio dei registri<\/li><li>Esecuzione del codice per l'inizializzazione (se presente)<\/li><\/ol>",
+              "typeId": 1471435194000,
+              "id": 1494953804692,
+              "front": "Qual è la sequenza di operazioni che avvengono per realizzare una chiamata ad una procedura?"
+            },
+            {
+              "rear": "Qual è la sequenza di operazioni che avvengono al ritorno da una chiamata ad una procedura?\n<hr id=answer>\n<ol type=\"1\" start=\"1\"><li>Ripristino del program counter<\/li><li>Restituzione dei valori di ritorno<\/li><li>Ripristino dei registri<\/li><li>Esecuzione codice per la finalizzazione (se esiste)<\/li><li>Deallocazione dello spazio sulla pila<\/li><\/ol>",
+              "typeId": 1471435194000,
+              "id": 1494953901549,
+              "front": "Qual è la sequenza di operazioni che avvengono al ritorno da una chiamata ad una procedura?"
+            },
+            {
+              "rear": "Che cos'è uno <i>heap<\/i>?\n<hr id=answer>\nUna zona di memoria che contiene blocchi di memoria allocati e deallocati in momenti arbitrari.",
+              "typeId": 1471435194000,
+              "id": 1494954039171,
+              "front": "Che cos'è uno <i>heap<\/i>?"
+            },
+            {
+              "rear": "In che modo viene implementata la heap a blocchi di dimensione fissa?\n<hr id=answer>\nLa heap è una lista di <img class=latex src=\"anki-images/latex-174fadd07fd54c9afe288e96558c92e0c1da733a.png\"> blocchi di dimensione fissa. Quando viene richiesta della memoria, il primo elemento libero viene rimosso dalla lista, restituito al richiedente e fatto puntare all'elemento successivo. Alla deallocazione, il blocco viene reinserito nella lista.<div><img src=\"anki-images/paste-62719407423489.jpg\" /><\/div>",
+              "typeId": 1471435194000,
+              "id": 1494954839240,
+              "front": "In che modo viene implementata la heap a blocchi di dimensione fissa?"
+            },
+            {
+              "rear": "Relativamente alla heap a blocchi a dimensione variabile, che cosa si intende per <i>frammentazione interna<\/i>?\n<hr id=answer>\nQuando il programma richiede un blocco di una certa dimensione, ma la heap gli restituisce un blocco che è leggermente più grande di quello richiesto (in quel caso la differenza di memoria è sprecata).",
+              "typeId": 1471435194000,
+              "id": 1494955225161,
+              "front": "Relativamente alla heap a blocchi a dimensione variabile, che cosa si intende per <i>frammentazione interna<\/i>?"
+            },
+            {
+              "rear": "Relativamente alla heap a blocchi a dimensione variabile, che cosa si intende per&nbsp;<i>frammentazione esterna<\/i>?\n<hr id=answer>\nQuanto i blocchi di memoria sono sparsi nella heap.",
+              "typeId": 1471435194000,
+              "id": 1494955352176,
+              "front": "Relativamente alla heap a blocchi a dimensione variabile, che cosa si intende per&nbsp;<i>frammentazione esterna<\/i>?"
+            },
+            {
+              "rear": "Relativamente alla heap a blocchi a dimensione variabile, che problema comporta la&nbsp;<i>frammentazione esterna<\/i>?\n<hr id=answer>\nIl programma potrebbe andare a richiedere&nbsp;<img class=latex src=\"anki-images/latex-174fadd07fd54c9afe288e96558c92e0c1da733a.png\"> byte di memoria, tuttavia, per via dell'eccessiva frammentazione dei blocchi allocati, non è possibile trovare&nbsp;<img class=latex src=\"anki-images/latex-174fadd07fd54c9afe288e96558c92e0c1da733a.png\"> byte contigui da restituire al programma sebbene in totale vi siano.",
+              "typeId": 1471435194000,
+              "id": 1494955498577,
+              "front": "Relativamente alla heap a blocchi a dimensione variabile, che problema comporta la&nbsp;<i>frammentazione esterna<\/i>?"
+            },
+            {
+              "rear": "Come viene gestita lo heap a blocchi variabili mediante il metodo dell'<i>utilizzo diretto della lista libera<\/i>?\n<hr id=answer>\nLa heap è una lista costituita da un unico blocco di memoria. Quando si richiede della memoria si restituisce un blocco di dimensione più appropriata e lo si rimuove dalla lista. Quando la memoria viene liberata, questa viene riaggiunta alla lista e fusa con i blocchi liberi adiacenti.",
+              "typeId": 1471435194000,
+              "id": 1494956549287,
+              "front": "Come viene gestita lo heap a blocchi variabili mediante il metodo dell'<i>utilizzo diretto della lista libera<\/i>?"
+            },
+            {
+              "rear": "In uno heap a blocchi variabili, come avviene la ricerca del blocco seguendo la strategia <i>first fit<\/i>?\n<hr id=answer>\nQuando si richiede un blocco di dimensione <img class=latex src=\"anki-images/latex-96ab646de7704969b91c76a214126b45f2b07b25.png\"> si stabilisce una soglia <img class=latex src=\"anki-images/latex-f37bba504894945c07a32f5496d74299a37aa51c.png\"> e si restituisce il primo blocco che ha dimensione compresa tra <img class=latex src=\"anki-images/latex-96ab646de7704969b91c76a214126b45f2b07b25.png\">&nbsp;e&nbsp;<img class=latex src=\"anki-images/latex-d3cce8fd6d8898c9cb8a11373eddf7a56c26d808.png\">.",
+              "typeId": 1471435194000,
+              "id": 1494956805766,
+              "front": "In uno heap a blocchi variabili, come avviene la ricerca del blocco seguendo la strategia <i>first fit<\/i>?"
+            },
+            {
+              "rear": "In uno heap a blocchi variabili, come avviene la ricerca del blocco seguendo la strategia best fit?\n<hr id=answer>\nSi scorre tutta la lista alla ricerca del blocco che combacia meglio con la dimensione del blocco richiesto.",
+              "typeId": 1471435194000,
+              "id": 1494956897467,
+              "front": "In uno heap a blocchi variabili, come avviene la ricerca del blocco seguendo la strategia best fit?"
+            },
+            {
+              "rear": "Come viene gestita lo heap a blocchi variabili mediante il metodo della <i>compattazione della memoria libera<\/i>?\n<hr id=answer>\nQuando si raggiunge la fine dello spazio inizialmente dedicato allo heap, tutti i blocchi allocati vengono \"compattati\" in modo che non vi siano blocchi liberi, e si aggiorna il puntatore dello heap allo spazio così liberato.",
+              "typeId": 1471435194000,
+              "id": 1494957047567,
+              "front": "Come viene gestita lo heap a blocchi variabili mediante il metodo della <i>compattazione della memoria libera<\/i>?"
+            },
+            {
+              "rear": "Che cosa si intende per allocazione dei blocchi mediante il metodo del <i>buddy system<\/i>?\n<hr id=answer>\nTutti i blocchi allocabili sono potenze di&nbsp;<img class=latex src=\"anki-images/latex-41c544263a265ff15498ee45f7392c5f86c6d151.png\">. Quando si richiede un blocco di dimensione&nbsp;<img class=latex src=\"anki-images/latex-174fadd07fd54c9afe288e96558c92e0c1da733a.png\"> si cerca il più piccolo blocco libero tale che&nbsp;<img class=latex src=\"anki-images/latex-1217fcdf4366678df482bd60d8268cef8a266175.png\">",
+              "typeId": 1471435194000,
+              "id": 1494957201658,
+              "front": "Che cosa si intende per allocazione dei blocchi mediante il metodo del <i>buddy system<\/i>?"
+            },
+            {
+              "rear": "Che cosa si intende per allocazione dei blocchi mediante il metodo del&nbsp;<i>heap di Fibonacci<\/i>?\n<hr id=answer>\nCome in <i>buddy system<\/i>&nbsp;ma la dimensioni dei blocchi allocabili seguono la sequenza di Fibonacci e quindi crescono di dimensione più lentamente.",
+              "typeId": 1471435194000,
+              "id": 1494957481655,
+              "front": "Che cosa si intende per allocazione dei blocchi mediante il metodo del&nbsp;<i>heap di Fibonacci<\/i>?"
+            },
+            {
+              "rear": "Nei linguaggi con scope statico, a che cosa serve il <i>puntatore di catena statica&nbsp;<\/i>in un record di attivazione&nbsp;?\n<hr id=answer>\nPunta al blocco immediatamente esterno a quello chiamato. Serve per trovare riferimenti ai binding non locale nei linguaggi che implementano lo scope statico.",
+              "typeId": 1471435194000,
+              "id": 1494963558639,
+              "front": "Nei linguaggi con scope statico, a che cosa serve il <i>puntatore di catena statica&nbsp;<\/i>in un record di attivazione&nbsp;?"
+            },
+            {
+              "rear": "Che cos'è il <i>display<\/i>&nbsp;in un linguaggio con scope statico?\n<hr id=answer>\nUn vettore che memorizza un record di attivazione per ciascun blocco di annidamento; ciò serve a ridurre il costo di scansione della catena statica. Quando ci si riferisce ad un oggetto non locale, il suo puntatore viene reperito dal vettore.",
+              "typeId": 1471435194000,
+              "id": 1494975757584,
+              "front": "Che cos'è il <i>display<\/i>&nbsp;in un linguaggio con scope statico?"
+            }
+          ],
+          "categoryName": "Capitolo-7"
+        }
+      ],
+      "authors": "Slava"
     }
   ]
 }
