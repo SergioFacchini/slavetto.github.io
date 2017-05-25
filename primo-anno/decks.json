@@ -18,7 +18,7 @@
               "front": "Che cos'è lo&nbsp;standard IEEE-754?"
             },
             {
-              "rear": "Quali sono le dimensioni dell'esponente e mantissa nello&nbsp;standard IEEE-754 (a precisione singola)?\n<hr id=answer>\n<div>1: Bit di segno<\/div><div>8: Esponente<\/div><div>23: esponente<\/div>",
+              "rear": "Quali sono le dimensioni dell'esponente e mantissa nello&nbsp;standard IEEE-754 (a precisione singola)?\n<hr id=answer>\n<div>1: Bit di segno<\/div><div>8: mantissa<\/div><div>23: esponente<\/div>",
               "typeId": 1471435194000,
               "id": 1492956009394,
               "front": "Quali sono le dimensioni dell'esponente e mantissa nello&nbsp;standard IEEE-754 (a precisione singola)?"
