@@ -2871,15 +2871,6 @@
           "categoryName": "Capitolo-12"
         },
         {
-          "cards": [{
-            "rear": "<div>β-ridurre l'espressione:<\/div><div><img class=latex src=\"anki-images/latex-4bada063734d7825b0de0153ace2835598f5d273.png\"><\/div>\n<hr id=answer>\n<img class=latex src=\"anki-images/latex-a35b26e75a03926c2e3f5afcd59d6e42a75b4e67.png\"><div><img class=latex src=\"anki-images/latex-8018e32559ed1093878cc2a08091237b50c1de92.png\"><\/div><div><img class=latex src=\"anki-images/latex-2dedff2d78ec4c8e912a2bd67bcbedb8867ebded.png\"><\/div>",
-            "typeId": 1471435194000,
-            "id": 1497361277138,
-            "front": "<div>β-ridurre l'espressione:<\/div><div><img class=latex src=\"anki-images/latex-4bada063734d7825b0de0153ace2835598f5d273.png\"><\/div>"
-          }],
-          "categoryName": "Capitolo-14"
-        },
-        {
           "cards": [
             {
               "rear": "Qual è la formula del Y-combinator?\n<hr id=answer>\n<img class=latex src=\"anki-images/latex-48bfaa08625478aabc5a76d5720ad582c6c09cc1.png\"><div><br /><\/div><div><i>(notare che&nbsp;<img class=latex src=\"anki-images/latex-6e1d3395b076ccb50815270d43fb82a47c7fa0bd.png\"> si ripete due volte)<\/i><\/div>",
@@ -2982,6 +2973,12 @@
               "typeId": 1471435194000,
               "id": 1496180368922,
               "front": "Nell'espressione&nbsp;<img class=latex src=\"anki-images/latex-0a21066fa262930955ccabdf96a9c86b4cfd85ec.png\">, che cosa indica&nbsp;<img class=latex src=\"anki-images/latex-a3a59bb1293ee3f6dec19de4019a7178874219ae.png\">?"
+            },
+            {
+              "rear": "<div>β-ridurre l'espressione:<\/div><div><img class=latex src=\"anki-images/latex-4bada063734d7825b0de0153ace2835598f5d273.png\"><\/div>\n<hr id=answer>\n<img class=latex src=\"anki-images/latex-a35b26e75a03926c2e3f5afcd59d6e42a75b4e67.png\"><div><img class=latex src=\"anki-images/latex-8018e32559ed1093878cc2a08091237b50c1de92.png\"><\/div><div><img class=latex src=\"anki-images/latex-2dedff2d78ec4c8e912a2bd67bcbedb8867ebded.png\"><\/div>",
+              "typeId": 1471435194000,
+              "id": 1497361277138,
+              "front": "<div>β-ridurre l'espressione:<\/div><div><img class=latex src=\"anki-images/latex-4bada063734d7825b0de0153ace2835598f5d273.png\"><\/div>"
             }
           ],
           "categoryName": "Lambda-calcolo"
