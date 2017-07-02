@@ -1592,16 +1592,16 @@
               "front": "Come si specifica nell'assembler MIPS un indirizzo di memoria?"
             },
             {
-              "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>lw $t0, 4($3)<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSalva in&nbsp;$t0 una parola all'indirizzo $3 spaziato di 4 byte",
+              "rear": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>lw $t0, 4($t3)<\/pre>\n<\/div>\n\n<hr id=answer>\n\nSalva in&nbsp;$t0 una parola all'indirizzo $t3 spaziato di 4 byte",
               "typeId": 1471435193999,
               "id": 1493043121993,
-              "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>lw $t0, 4($3)<\/pre>\n<\/div>"
+              "front": "<div><\/div>\n<div>Nell'architettura <strong>MIPS<\/strong> che cosa fa l'istruzione?<\/div>\n<div>\n<pre>lw $t0, 4($t3)<\/pre>\n<\/div>"
             },
             {
-              "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salva in&nbsp;$t0 una parola all'indirizzo $3 spaziato di 4 byte<\/em><\/div>\n\n<hr id=answer>\n\n<pre>lw $t0, 4($3)<\/pre>",
+              "rear": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salva in&nbsp;$t0 una parola all'indirizzo $t3 spaziato di 4 byte<\/em><\/div>\n\n<hr id=answer>\n\n<pre>lw $t0, 4($t3)<\/pre>",
               "typeId": 1471435193999,
               "id": 1493043121994,
-              "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salva in&nbsp;$t0 una parola all'indirizzo $3 spaziato di 4 byte<\/em><\/div>"
+              "front": "<div>Quale istruzione <strong>MIPS<\/strong> corrisponde alla descrizione?<\/div>\n<br>\n<div><em>Salva in&nbsp;$t0 una parola all'indirizzo $t3 spaziato di 4 byte<\/em><\/div>"
             },
             {
               "rear": "Qual è la dimensione di una word in MIPS?\n<hr id=answer>\n4 byte",
